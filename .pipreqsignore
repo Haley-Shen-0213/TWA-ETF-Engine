@@ -1,0 +1,11 @@
+.venv
+venv
+env
+docs
+migrations
+credentials
+assets
+node_modules
+dist
+build
+__pycache__

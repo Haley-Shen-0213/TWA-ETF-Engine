@@ -1,0 +1,1755 @@
+TWSE OpenAPI Auto Scan @ 2025-10-31T03:58:58.867818 | verify=False
+Base=https://openapi.twse.com.tw/v1
+Swagger=https://openapi.twse.com.tw/v1/swagger.json
+Total endpoints scanned=143
+CODES=['00939', '00934', '00937B', '00929', '0056']
+
+--------------------------------------------------------------------------------
+GET /Announcement/BFZFZU_T  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1
+[GLOBAL] Fields(4): Code, Date, Name, Number
+[GLOBAL] Sample: [{"Number": "0", "Code": "", "Name": "", "Date": "1141029"}]
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /ETFReport/ETFRank  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=20
+[GLOBAL] Fields(7): ETFsName, ETFsNumberofTradingAccounts, ETFsSecurityCode, No, STOCKsName, STOCKsNumberofTradingAccounts, STOCKsSecurityCode
+[GLOBAL] Sample: [{"No": "1", "STOCKsSecurityCode": "2330", "STOCKsName": "台積電", "STOCKsNumberofTradingAccounts": "118276", "ETFsSecurityCode": "0050", "ETFsName": "元大台灣50", "ETFsNumberofTradingAccounts": "535855"}, {"No": "2", "STOCKsSecurityCode": "2886", "STOCKsName": "兆豐金", "STOCKsNumberofTradingAccounts": "29805", "ETFsSecurityCode": "00878", "ETFsName": "國泰永續高股息", "ETFsNumberofTradingAccounts": "294924"}, {"No": "3", "STOCKsSecurityCode": "2884", "STOCKsName": "玉山金", "STOCKsNumberofTradingAccounts": "29751
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /SBL/TWT96U  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1173
+[GLOBAL] Fields(4): GRETAIAvailableVolume, GRETAICode, TWSEAvailableVolume, TWSECode
+[GLOBAL] Sample: [{"TWSECode": "0050", "TWSEAvailableVolume": "30,970,894", "GRETAICode": "006201", "GRETAIAvailableVolume": "38,679"}, {"TWSECode": "0051", "TWSEAvailableVolume": "42,526", "GRETAICode": "00679B", "GRETAIAvailableVolume": "11,169,420"}, {"TWSECode": "0052", "TWSEAvailableVolume": "547,723", "GRETAICode": "00687B", "GRETAIAvailableVolume": "8,881,530"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /announcement/notetrans  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1
+[GLOBAL] Fields(4): Code, Name, Number, RecentlyMetAttentionSecuritiesCriteria
+[GLOBAL] Sample: [{"Number": "0", "Code": "", "Name": "", "RecentlyMetAttentionSecuritiesCriteria": ""}]
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /announcement/notice  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1
+[GLOBAL] Fields(8): ClosingPrice, Code, Date, Name, Number, NumberOfAnnouncement, PE, TradingInfoForAttention
+[GLOBAL] Sample: [{"Number": "0", "Code": "", "Name": "", "NumberOfAnnouncement": "0", "TradingInfoForAttention": "", "Date": "", "ClosingPrice": "0", "PE": "0"}]
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /announcement/punish  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=7
+[GLOBAL] Fields(10): Code, Date, Detail, DispositionMeasures, DispositionPeriod, LinkInformation, Name, Number, NumberOfAnnouncement, ReasonsOfDisposition
+[GLOBAL] Sample: [{"Number": "1", "Date": "1141020", "Code": "2344", "Name": "華邦電", "NumberOfAnnouncement": "1", "ReasonsOfDisposition": "最近十個營業日已有六次", "DispositionPeriod": "114/10/21～114/11/04", "DispositionMeasures": "第一次處置", "Detail": "１處置原因：該有價證券之交易，最近十個營業日內已有六個營業日達本公司「公布注意交易資訊」標準。\n２處置期間：自民國一百十四年十月二十一日起至一百十四年十一月四日﹝十個營業日，如遇：ａ有價證券最後交易日在處置期間，僅處置至最後交易日，ｂ有價證券停止買賣、全日暫停交易則順延執行，ｃ開休市日變動則調整處置迄日〕。\n３處置措施：\nａ以人工管制之撮合終端機執行撮合作業（約每五分鐘撮合一次）。\nｂ投資人每日委託買賣該有價證券數量單筆達十交易單位或多筆累積達三十交易單位以上時，應就其當日已委託之買賣，向該投資人收取全部之買進價金或賣出證券。\nｃ信用交易部
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /block/BFIAUU_d  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=72
+[GLOBAL] Fields(6): Class, Date, MarketSharePer, TradeValue, TradeVolume, Type
+[GLOBAL] Sample: [{"Date": "1141001", "Class": "逐筆交易", "Type": "單一證券", "TradeVolume": "", "MarketSharePer": "", "TradeValue": ""}, {"Date": "1141001", "Class": "逐筆交易", "Type": "股票組合", "TradeVolume": "", "MarketSharePer": "", "TradeValue": ""}, {"Date": "1141001", "Class": "配對交易", "Type": "單一證券", "TradeVolume": "15180000", "MarketSharePer": "0.64", "TradeValue": ""}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /block/BFIAUU_m  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=20
+[GLOBAL] Fields(5): Class, MarketSharePer, Month, TradeValue, TradeVolume
+[GLOBAL] Sample: [{"Month": "11401", "Class": "逐筆交易", "TradeVolume": "96700000", "MarketSharePer": "0.04", "TradeValue": "2292650000.0000"}, {"Month": "11401", "Class": "配對交易", "TradeVolume": "186169323", "MarketSharePer": "0.89", "TradeValue": "47313361551.0400"}, {"Month": "11402", "Class": "逐筆交易", "TradeVolume": "10752000", "MarketSharePer": "0.01", "TradeValue": "513649240.0000"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /block/BFIAUU_y  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=21
+[GLOBAL] Fields(4): MarketSharePer, Month, TradeValue, TradeVolume
+[GLOBAL] Sample: [{"Month": "094", "TradeVolume": "2912121423", "MarketSharePer": "0.91", "TradeValue": "135425777263.1500"}, {"Month": "095", "TradeVolume": "827500897", "MarketSharePer": "0.07", "TradeValue": "17422428762.7900"}, {"Month": "096", "TradeVolume": "2918009882", "MarketSharePer": "0.35", "TradeValue": "117112687115.7200"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /brokerService/brokerList  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=65
+[GLOBAL] Fields(5): Address, Code, EstablishmentDate, Name, Telephone
+[GLOBAL] Sample: [{"Code": "1020", "Name": "合庫", "EstablishmentDate": "1001202", "Address": "台北市大安區忠孝東路四段285號1樓(部分)", "Telephone": "(02)27528000"}, {"Code": "1030", "Name": "土銀", "EstablishmentDate": "0510209", "Address": "台北市延平南路八十一號", "Telephone": "(02)23483948"}, {"Code": "1040", "Name": "臺銀證券", "EstablishmentDate": "0970102", "Address": "台北市重慶南路1段58號4樓、5樓部分", "Telephone": "(02)23882188"}]
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /brokerService/secRegData  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=21
+[GLOBAL] Fields(4): BrokerageBusinessStartingDate, Name, SecuritiesFirmCode, WealthManagementBusinessStartingDate
+[GLOBAL] Sample: [{"SecuritiesFirmCode": "1020", "Name": "合庫", "BrokerageBusinessStartingDate": "1100701", "WealthManagementBusinessStartingDate": ""}, {"SecuritiesFirmCode": "1030", "Name": "土銀", "BrokerageBusinessStartingDate": "1070103", "WealthManagementBusinessStartingDate": ""}, {"SecuritiesFirmCode": "1040", "Name": "臺銀證券", "BrokerageBusinessStartingDate": "1100726", "WealthManagementBusinessStartingDate": ""}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /company/applylistingForeign  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=121
+[GLOBAL] Fields(13): AgreementDate, AmountofCapital , ApplicationDate, ApprovedDate, Chairman, Code, CommitteeDate, Company, ListingDate, No, Note, Underwriter, UnderwritingPrice
+[GLOBAL] Sample: [{"No": "1", "Code": "7749", "Company": "意騰-KY", "ApplicationDate": "1131030", "Chairman": "顏志展", "AmountofCapital ": "400907", "CommitteeDate": "1131206", "ApprovedDate": "1131217", "AgreementDate": "1131224", "ListingDate": "1140613", "Underwriter": "元大", "UnderwritingPrice": "330.0", "Note": "科技事業"}, {"No": "2", "Code": "2248", "Company": "華勝-KY", "ApplicationDate": "1130905", "Chairman": "陳鏗勝", "AmountofCapital ": "420000", "CommitteeDate": "1131016", "ApprovedDate": "1131126", "AgreementDat
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /company/applylistingLocal  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=682
+[GLOBAL] Fields(13): AgreementDate, AmountofCapital , ApplicationDate, ApprovedDate, ApprovedListingDate, Chairman, Code, CommitteeDate, Company, ListingDate, Note, Underwriter, UnderwritingPrice
+[GLOBAL] Sample: [{"Code": "1", "Company": "7821", "ApplicationDate": "神數", "Chairman": "1141028", "AmountofCapital ": "何繼武", "CommitteeDate": "1094133", "ApprovedDate": "", "AgreementDate": "", "ListingDate": "", "ApprovedListingDate": "", "Underwriter": "元大", "UnderwritingPrice": "", "Note": ""}, {"Code": "2", "Company": "7768", "ApplicationDate": "頌勝科技", "Chairman": "1141027", "AmountofCapital ": "朱明癸", "CommitteeDate": "600000", "ApprovedDate": "", "AgreementDate": "", "ListingDate": "", "ApprovedListingDate
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /company/newlisting  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=759
+[GLOBAL] Fields(13): AgreementDate, AmountofCapital , ApplicationDate, ApprovedDate, ApprovedListingDate, Chairman, Code, CommitteeDate, Company, ListingDate, Note, Underwriter, UnderwritingPrice
+[GLOBAL] Sample: [{"Code": "7791", "Company": "皇家可口", "ApplicationDate": "1140625", "Chairman": "周明芬", "AmountofCapital ": "700000", "CommitteeDate": "1140805", "ApprovedDate": "1140826", "AgreementDate": "1140902", "ListingDate": "", "ApprovedListingDate": "1141028", "Underwriter": "凱基", "UnderwritingPrice": "72.00", "Note": ""}, {"Code": "7788", "Company": "松川精密", "ApplicationDate": "1140508", "Chairman": "王傳世", "AmountofCapital ": "726160", "CommitteeDate": "1140617", "ApprovedDate": "1140715", "AgreementDate
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /company/suspendListingCsvAndHtml  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=261
+[GLOBAL] Fields(3): Code, Company, DelistingDate
+[GLOBAL] Sample: [{"DelistingDate": "114/10/01", "Company": "京城銀", "Code": "2809"}, {"DelistingDate": "114/08/15", "Company": "聯嘉光電", "Code": "6288"}, {"DelistingDate": "114/07/24", "Company": "新光金", "Code": "2888"}]
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /exchangeReport/BFI61U  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=276
+[GLOBAL] Fields(6): Code, CouponRate, DailyAccInterest, IssuedDate, Name, StartingDate
+[GLOBAL] Sample: [{"Code": "A00101", "Name": "100央債甲01", "IssuedDate": "20110105", "StartingDate": "20110105", "CouponRate": "1.000", "DailyAccInterest": "2.7397"}, {"Code": "A00102", "Name": "100央債甲02", "IssuedDate": "20110113", "StartingDate": "20110113", "CouponRate": "2.125", "DailyAccInterest": "5.8219"}, {"Code": "A00103", "Name": "100央債甲03", "IssuedDate": "20110214", "StartingDate": "20110214", "CouponRate": "0.750", "DailyAccInterest": "2.0547"}]
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /exchangeReport/BFI84U  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=13
+[GLOBAL] Fields(5): Code, EndDate, Name, Reason, StartDate
+[GLOBAL] Sample: [{"Code": "0052", "Name": "富邦科技", "StartDate": "1141113", "EndDate": "1141118", "Reason": "ETF分割"}, {"Code": "00939", "Name": "統一台灣高息動能", "StartDate": "1141028", "EndDate": "1141031", "Reason": "分配收益"}, {"Code": "00940", "Name": "元大台灣價值高息", "StartDate": "1141031", "EndDate": "1141105", "Reason": "分配收益"}]
+[CODES] code_key='Code'
+  - 00939: count=1 fields=5
+    sample: [{"Code": "00939", "Name": "統一台灣高息動能", "StartDate": "1141028", "EndDate": "1141031", "Reason": "分配收益"}]
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /exchangeReport/BFT41U  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=8
+[GLOBAL] Fields(8): AskVolume, BidVolume, Code, Name, TradePrice, TradeValue, TradeVolume, Transaction
+[GLOBAL] Sample: [{"Code": "1101", "Name": "台泥", "TradeVolume": "9", "Transaction": "7", "TradeValue": "202950", "TradePrice": "22.55", "BidVolume": "202", "AskVolume": ""}, {"Code": "1101B", "Name": "台泥乙特", "TradeVolume": "", "Transaction": "", "TradeValue": "", "TradePrice": "45.55", "BidVolume": "", "AskVolume": ""}, {"Code": "1102", "Name": "亞泥", "TradeVolume": "7", "Transaction": "5", "TradeValue": "253400", "TradePrice": "36.20", "BidVolume": "45", "AskVolume": ""}]
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /exchangeReport/BWIBBU_ALL  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1054
+[GLOBAL] Fields(6): Code, Date, DividendYield, Name, PBratio, PEratio
+[GLOBAL] Sample: [{"Date": "1141029", "Code": "1101", "Name": "台泥", "PEratio": "21.89", "DividendYield": "4.43", "PBratio": "0.79"}, {"Date": "1141029", "Code": "1102", "Name": "亞泥", "PEratio": "12.84", "DividendYield": "6.08", "PBratio": "0.78"}, {"Date": "1141029", "Code": "1103", "Name": "嘉泥", "PEratio": "108.75", "DividendYield": "4.21", "PBratio": "0.48"}]
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /exchangeReport/BWIBBU_d  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1019
+[GLOBAL] Fields(7): Code, DividendYear, DividendYield, FiscalYearQuarter, Name, PBratio, PEratio
+[GLOBAL] Sample: [{"Code": "1101", "Name": "台泥", "DividendYield": "2.96", "DividendYear": "112", "PEratio": "35.96", "PBratio": "1.09", "FiscalYearQuarter": "2024Q2"}, {"Code": "1102", "Name": "亞泥", "DividendYield": "4.40", "DividendYear": "112", "PEratio": "15.11", "PBratio": "0.95", "FiscalYearQuarter": "2024Q2"}, {"Code": "1103", "Name": "嘉泥", "DividendYield": "2.75", "DividendYear": "112", "PEratio": "121.33", "PBratio": "0.56", "FiscalYearQuarter": "2024Q2"}]
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /exchangeReport/FMNPTK_ALL  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=72598
+[GLOBAL] Fields(11): AvgClosingPrice, Code, HDate, HighestPrice, LDate, LowestPrice, Name, TradeValue, TradeVolume, Transaction, Year
+[GLOBAL] Sample: [{"Year": "113", "Code": "0050", "Name": "元大台灣50", "TradeVolume": "2998865946", "TradeValue": "513613686842", "Transaction": "4134891", "HighestPrice": "202.80", "HDate": "7月11日", "LowestPrice": "127.30", "LDate": "1月17日", "AvgClosingPrice": "172.33"}, {"Year": "113", "Code": "0051", "Name": "元大中型100", "TradeVolume": "23705832", "TradeValue": "1867119698", "Transaction": "74477", "HighestPrice": "87.90", "HDate": "7月15日", "LowestPrice": "70.80", "LDate": "1月18日", "AvgClosingPrice": "79.15"}, {"Y
+[CODES] code_key='Code'
+  - 00939: count=1 fields=11
+    sample: [{"Year": "113", "Code": "00939", "Name": "統一台灣高息動能", "TradeVolume": "6325577506", "TradeValue": "93056327047", "Transaction": "1674626", "HighestPrice": "15.39", "HDate": "3月20日", "LowestPrice": "13.27", "LDate": "8月05日", "AvgClosingPrice": "14.52"}]
+  - 00934: count=1 fields=11
+    sample: [{"Year": "113", "Code": "00934", "Name": "中信成長高股息", "TradeVolume": "4420689290", "TradeValue": "85548318928", "Transaction": "1031597", "HighestPrice": "21.15", "HDate": "7月02日", "LowestPrice": "16.46", "LDate": "1月18日", "AvgClosingPrice": "18.80"}]
+  - 00937B: count=0 fields=0
+  - 00929: count=1 fields=11
+    sample: [{"Year": "113", "Code": "00929", "Name": "復華台灣科技優息", "TradeVolume": "31244287017", "TradeValue": "611252507146", "Transaction": "9584048", "HighestPrice": "21.87", "HDate": "3月20日", "LowestPrice": "17.55", "LDate": "11月29日", "AvgClosingPrice": "19.49"}]
+  - 0056: count=1 fields=11
+    sample: [{"Year": "113", "Code": "0056", "Name": "元大高股息", "TradeVolume": "7956792534", "TradeValue": "304382852851", "Transaction": "5753919", "HighestPrice": "42.77", "HDate": "7月11日", "LowestPrice": "34.45", "LDate": "8月06日", "AvgClosingPrice": "38.44"}]
+--------------------------------------------------------------------------------
+GET /exchangeReport/FMSRFK_ALL  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=28721
+[GLOBAL] Fields(10): Code, HighestPrice, LowestPrice, Month, Name, TradeValueA, TradeVolumeB, Transaction, TurnoverRatio, WeightedAvgPriceAB
+[GLOBAL] Sample: [{"Month": "11409", "Code": "0050", "Name": "元大台灣50", "HighestPrice": "58.95", "LowestPrice": "51.75", "WeightedAvgPriceAB": "55.84", "Transaction": "1225089", "TradeValueA": "80015744812", "TradeVolumeB": "1432865740", "TurnoverRatio": "11.29"}, {"Month": "11409", "Code": "0051", "Name": "元大中型100", "HighestPrice": "87.50", "LowestPrice": "81.90", "WeightedAvgPriceAB": "84.97", "Transaction": "7793", "TradeValueA": "304514739", "TradeVolumeB": "3583767", "TurnoverRatio": "15.58"}, {"Month": "114
+[CODES] code_key='Code'
+  - 00939: count=1 fields=10
+    sample: [{"Month": "11409", "Code": "00939", "Name": "統一台灣高息動能", "HighestPrice": "14.34", "LowestPrice": "13.60", "WeightedAvgPriceAB": "14.03", "Transaction": "38394", "TradeValueA": "2647971815", "TradeVolumeB": "188649426", "TurnoverRatio": "8.13"}]
+  - 00934: count=1 fields=10
+    sample: [{"Month": "11409", "Code": "00934", "Name": "中信成長高股息", "HighestPrice": "20.30", "LowestPrice": "19.19", "WeightedAvgPriceAB": "19.96", "Transaction": "23783", "TradeValueA": "1956631090", "TradeVolumeB": "97999299", "TurnoverRatio": "16.85"}]
+  - 00937B: count=0 fields=0
+  - 00929: count=1 fields=10
+    sample: [{"Month": "11409", "Code": "00929", "Name": "復華台灣科技優息", "HighestPrice": "19.00", "LowestPrice": "17.41", "WeightedAvgPriceAB": "18.42", "Transaction": "194180", "TradeValueA": "15518034058", "TradeVolumeB": "842136153", "TurnoverRatio": "10.63"}]
+  - 0056: count=1 fields=10
+    sample: [{"Month": "11409", "Code": "0056", "Name": "元大高股息", "HighestPrice": "37.26", "LowestPrice": "34.51", "WeightedAvgPriceAB": "36.13", "Transaction": "470227", "TradeValueA": "33087491118", "TradeVolumeB": "915779580", "TurnoverRatio": "6.69"}]
+--------------------------------------------------------------------------------
+GET /exchangeReport/FMTQIK  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=18
+[GLOBAL] Fields(6): Change, Date, TAIEX, TradeValue, TradeVolume, Transaction
+[GLOBAL] Sample: [{"Date": "1141001", "TradeVolume": "7679791251", "TradeValue": "468840061902", "Transaction": "3129297", "TAIEX": "25982.91", "Change": "162.37"}, {"Date": "1141002", "TradeVolume": "8085314896", "TradeValue": "506683446386", "Transaction": "3240734", "TAIEX": "26378.39", "Change": "395.48"}, {"Date": "1141003", "TradeVolume": "7784825692", "TradeValue": "480095576070", "Transaction": "3218063", "TAIEX": "26761.06", "Change": "382.67"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /exchangeReport/MI_5MINS  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=3241
+[GLOBAL] Fields(8): AccAskOrders, AccAskVolume, AccBidOrders, AccBidVolume, AccTradeValue, AccTradeVolume, AccTransaction, Time
+[GLOBAL] Sample: [{"Time": "090000", "AccBidOrders": "458711", "AccBidVolume": "4819877", "AccAskOrders": "461232", "AccAskVolume": "1912973", "AccTransaction": "", "AccTradeVolume": "", "AccTradeValue": ""}, {"Time": "090005", "AccBidOrders": "466870", "AccBidVolume": "4964817", "AccAskOrders": "466953", "AccAskVolume": "2078431", "AccTransaction": "24562", "AccTradeVolume": "74609", "AccTradeValue": "9934"}, {"Time": "090010", "AccBidOrders": "475761", "AccBidVolume": "5131641", "AccAskOrders": "472481", "AccA
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /exchangeReport/MI_INDEX  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=269
+[GLOBAL] Fields(7): 指數, 收盤指數, 日期, 漲跌, 漲跌百分比, 漲跌點數, 特殊處理註記
+[GLOBAL] Sample: [{"日期": "1141029", "指數": "寶島股價指數", "收盤指數": "31544", "漲跌": "+", "漲跌點數": "356.91", "漲跌百分比": "1.14", "特殊處理註記": ""}, {"日期": "1141029", "指數": "發行量加權股價指數", "收盤指數": "28295", "漲跌": "+", "漲跌點數": "345.63", "漲跌百分比": "1.24", "特殊處理註記": ""}, {"日期": "1141029", "指數": "臺灣公司治理100指數", "收盤指數": "17623", "漲跌": "+", "漲跌點數": "257.53", "漲跌百分比": "1.48", "特殊處理註記": ""}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /exchangeReport/MI_INDEX20  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=20
+[GLOBAL] Fields(14): Change, ClosingPrice, Code, Date, Dir, HighestPrice, LastBestAskPrice, LastBestBidPrice, LowestPrice, Name, OpeningPrice, Rank, TradeVolume, Transaction
+[GLOBAL] Sample: [{"Date": "20251029", "Rank": "1", "Code": "2337", "Name": "旺宏", "TradeVolume": "412967018", "Transaction": "143457", "OpeningPrice": "38.00", "HighestPrice": "39.70", "LowestPrice": "36.90", "ClosingPrice": "38.50", "Dir": "+", "Change": "2.05", "LastBestBidPrice": "38.50", "LastBestAskPrice": "38.55"}, {"Date": "20251029", "Rank": "2", "Code": "6770", "Name": "力積電", "TradeVolume": "388352347", "Transaction": "133763", "OpeningPrice": "32.00", "HighestPrice": "33.40", "LowestPrice": "30.55", "C
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=1 fields=14
+    sample: [{"Date": "20251029", "Rank": "15", "Code": "00929", "Name": "復華台灣科技優息", "TradeVolume": "78438928", "Transaction": "14320", "OpeningPrice": "19.07", "HighestPrice": "19.18", "LowestPrice": "18.98", "ClosingPrice": "19.01", "Dir": "+", "Change": "0.06", "LastBestBidPrice": "19.01", "LastBestAskPrice"
+  - 0056: count=1 fields=14
+    sample: [{"Date": "20251029", "Rank": "12", "Code": "0056", "Name": "元大高股息", "TradeVolume": "91187427", "Transaction": "24364", "OpeningPrice": "37.33", "HighestPrice": "37.59", "LowestPrice": "37.33", "ClosingPrice": "37.47", "Dir": "+", "Change": "0.34", "LastBestBidPrice": "37.47", "LastBestAskPrice": "3
+--------------------------------------------------------------------------------
+GET /exchangeReport/MI_INDEX4  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=18
+[GLOBAL] Fields(4): Change, Date, FormosaIndex, TradeValue
+[GLOBAL] Sample: [{"Date": "1141001", "TradeValue": "602143318428", "FormosaIndex": "29128.26", "Change": "167.71"}, {"Date": "1141002", "TradeValue": "646359721471", "FormosaIndex": "29550.29", "Change": "422.03"}, {"Date": "1141003", "TradeValue": "605747256363", "FormosaIndex": "29952.61", "Change": "402.32"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /exchangeReport/MI_MARGN  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1231
+[GLOBAL] Fields(16): 股票代號, 股票名稱, 融券今日餘額, 融券前日餘額, 融券現券償還, 融券買進, 融券賣出, 融券限額, 融資今日餘額, 融資前日餘額, 融資現金償還, 融資買進, 融資賣出, 融資限額, 註記, 資券互抵
+[GLOBAL] Sample: [{"股票代號": "0050", "股票名稱": "元大台灣50", "融資買進": "575", "融資賣出": "1083", "融資現金償還": "55", "融資前日餘額": "8597", "融資今日餘額": "8034", "融資限額": "3430750", "融券買進": "48", "融券賣出": "85", "融券現券償還": "", "融券前日餘額": "1726", "融券今日餘額": "1763", "融券限額": "3430750", "資券互抵": "4", "註記": " "}, {"股票代號": "0051", "股票名稱": "元大中型100", "融資買進": "3", "融資賣出": "", "融資現金償還": "", "融資前日餘額": "1", "融資今日餘額": "4", "融資限額": "5750", "融券買進": "", "融券賣出": "", "融券現券償還": "", "融券前日餘額": "", "融券今日餘額": "", "融券限額": "5750", "資券互抵": "", "註記": " "}, {"股票代號": "005
+[CODES] code_key='股票代號'
+  - 00939: count=1 fields=16
+    sample: [{"股票代號": "00939", "股票名稱": "統一台灣高息動能", "融資買進": "", "融資賣出": "71", "融資現金償還": "", "融資前日餘額": "572", "融資今日餘額": "501", "融資限額": "553619", "融券買進": "", "融券賣出": "", "融券現券償還": "", "融券前日餘額": "", "融券今日餘額": "", "融券限額": "553619", "資券互抵": "", "註記": "X "}]
+  - 00934: count=1 fields=16
+    sample: [{"股票代號": "00934", "股票名稱": "中信成長高股息", "融資買進": "", "融資賣出": "51", "融資現金償還": "", "融資前日餘額": "2464", "融資今日餘額": "2413", "融資限額": "131131", "融券買進": "", "融券賣出": "", "融券現券償還": "", "融券前日餘額": "", "融券今日餘額": "", "融券限額": "131131", "資券互抵": "", "註記": " "}]
+  - 00937B: count=0 fields=0
+  - 00929: count=1 fields=16
+    sample: [{"股票代號": "00929", "股票名稱": "復華台灣科技優息", "融資買進": "23", "融資賣出": "59", "融資現金償還": "", "融資前日餘額": "5481", "融資今日餘額": "5445", "融資限額": "1870909", "融券買進": "", "融券賣出": "8", "融券現券償還": "", "融券前日餘額": "43", "融券今日餘額": "51", "融券限額": "1870909", "資券互抵": "4", "註記": " "}]
+  - 0056: count=1 fields=16
+    sample: [{"股票代號": "0056", "股票名稱": "元大高股息", "融資買進": "99", "融資賣出": "762", "融資現金償還": "4", "融資前日餘額": "5561", "融資今日餘額": "4894", "融資限額": "3450508", "融券買進": "3", "融券賣出": "28", "融券現券償還": "", "融券前日餘額": "70", "融券今日餘額": "95", "融券限額": "3450508", "資券互抵": "5", "註記": " "}]
+--------------------------------------------------------------------------------
+GET /exchangeReport/STOCK_DAY_ALL  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1319
+[GLOBAL] Fields(11): Change, ClosingPrice, Code, Date, HighestPrice, LowestPrice, Name, OpeningPrice, TradeValue, TradeVolume, Transaction
+[GLOBAL] Sample: [{"Date": "1141029", "Code": "0050", "Name": "元大台灣50", "TradeVolume": "67414369", "TradeValue": "4326680379", "OpeningPrice": "63.70", "HighestPrice": "64.45", "LowestPrice": "63.70", "ClosingPrice": "64.40", "Change": "1.0500", "Transaction": "50482"}, {"Date": "1141029", "Code": "0051", "Name": "元大中型100", "TradeVolume": "46848", "TradeValue": "4270442", "OpeningPrice": "90.65", "HighestPrice": "91.45", "LowestPrice": "90.65", "ClosingPrice": "91.30", "Change": "0.9000", "Transaction": "277"}, 
+[CODES] code_key='Code'
+  - 00939: count=1 fields=11
+    sample: [{"Date": "1141029", "Code": "00939", "Name": "統一台灣高息動能", "TradeVolume": "19113062", "TradeValue": "277210817", "OpeningPrice": "14.47", "HighestPrice": "14.53", "LowestPrice": "14.47", "ClosingPrice": "14.49", "Change": "0.1200", "Transaction": "3512"}]
+  - 00934: count=1 fields=11
+    sample: [{"Date": "1141029", "Code": "00934", "Name": "中信成長高股息", "TradeVolume": "6948242", "TradeValue": "147307279", "OpeningPrice": "21.25", "HighestPrice": "21.25", "LowestPrice": "21.12", "ClosingPrice": "21.20", "Change": "0.1400", "Transaction": "1395"}]
+  - 00937B: count=0 fields=0
+  - 00929: count=1 fields=11
+    sample: [{"Date": "1141029", "Code": "00929", "Name": "復華台灣科技優息", "TradeVolume": "78438928", "TradeValue": "1496707417", "OpeningPrice": "19.07", "HighestPrice": "19.18", "LowestPrice": "18.98", "ClosingPrice": "19.01", "Change": "0.0600", "Transaction": "14320"}]
+  - 0056: count=1 fields=11
+    sample: [{"Date": "1141029", "Code": "0056", "Name": "元大高股息", "TradeVolume": "91187427", "TradeValue": "3419601243", "OpeningPrice": "37.33", "HighestPrice": "37.59", "LowestPrice": "37.33", "ClosingPrice": "37.47", "Change": "0.3400", "Transaction": "24364"}]
+--------------------------------------------------------------------------------
+GET /exchangeReport/STOCK_DAY_AVG_ALL  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=27940
+[GLOBAL] Fields(5): ClosingPrice, Code, Date, MonthlyAveragePrice, Name
+[GLOBAL] Sample: [{"Date": "1141029", "Code": "0050", "Name": "元大台灣50", "ClosingPrice": "64.40", "MonthlyAveragePrice": "61.85"}, {"Date": "1141029", "Code": "0051", "Name": "元大中型100", "ClosingPrice": "91.30", "MonthlyAveragePrice": "88.25"}, {"Date": "1141029", "Code": "0052", "Name": "富邦科技", "ClosingPrice": "260.00", "MonthlyAveragePrice": "247.15"}]
+[CODES] code_key='Code'
+  - 00939: count=1 fields=5
+    sample: [{"Date": "1141029", "Code": "00939", "Name": "統一台灣高息動能", "ClosingPrice": "14.49", "MonthlyAveragePrice": "14.20"}]
+  - 00934: count=1 fields=5
+    sample: [{"Date": "1141029", "Code": "00934", "Name": "中信成長高股息", "ClosingPrice": "21.20", "MonthlyAveragePrice": "20.36"}]
+  - 00937B: count=0 fields=0
+  - 00929: count=1 fields=5
+    sample: [{"Date": "1141029", "Code": "00929", "Name": "復華台灣科技優息", "ClosingPrice": "19.01", "MonthlyAveragePrice": "18.60"}]
+  - 0056: count=1 fields=5
+    sample: [{"Date": "1141029", "Code": "0056", "Name": "元大高股息", "ClosingPrice": "37.47", "MonthlyAveragePrice": "37.18"}]
+--------------------------------------------------------------------------------
+GET /exchangeReport/STOCK_FIRST  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=90
+[GLOBAL] Fields(16): Change, ClosingPrice, Code, Dir, HighestPrice, LastBestAskPrice, LastBestAskVolume, LastBestBidPrice, LastBestBidVolume, LowestPrice, Name, OpeningPrice, PriceEarningRatio, TradeValue, TradeVolume, Transaction
+[GLOBAL] Sample: [{"Code": "1256", "Name": "鮮活果汁-KY", "TradeVolume": "27092", "Transaction": "85", "TradeValue": "4039457", "OpeningPrice": "149.50", "HighestPrice": "150.50", "LowestPrice": "148.00", "ClosingPrice": "148.00", "Dir": "-", "Change": "1.50", "LastBestBidPrice": "148.00", "LastBestBidVolume": "3", "LastBestAskPrice": "149.00", "LastBestAskVolume": "1", "PriceEarningRatio": "16.74"}, {"Code": "1337", "Name": "再生-KY", "TradeVolume": "874713", "Transaction": "188", "TradeValue": "4425107", "OpeningPri
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /exchangeReport/TWT48U_ALL  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=19
+[GLOBAL] Fields(12): CashDividend, Code, Date, Exdividend, Name, SharesEmpOwner, SharesOffered, SharesholderOwner, StockDividendRatio, StockHoldingRatio, SubscriptionPricePerShare, SubscriptionRatio
+[GLOBAL] Sample: [{"Date": "1141023", "Code": "0056", "Name": "元大高股息", "Exdividend": "息", "StockDividendRatio": "", "SubscriptionRatio": "", "SubscriptionPricePerShare": "", "CashDividend": "0.866000", "SharesOffered": "", "SharesEmpOwner": "", "SharesholderOwner": "", "StockHoldingRatio": ""}, {"Date": "1141023", "Code": "006204", "Name": "永豐臺灣加權", "Exdividend": "息", "StockDividendRatio": "", "SubscriptionRatio": "", "SubscriptionPricePerShare": "", "CashDividend": "3.259000", "SharesOffered": "", "SharesEmpOwn
+[CODES] code_key='Code'
+  - 00939: count=1 fields=12
+    sample: [{"Date": "1141103", "Code": "00939", "Name": "統一台灣高息動能", "Exdividend": "息", "StockDividendRatio": "", "SubscriptionRatio": "", "SubscriptionPricePerShare": "", "CashDividend": "", "SharesOffered": "", "SharesEmpOwner": "", "SharesholderOwner": "", "StockHoldingRatio": ""}]
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=1 fields=12
+    sample: [{"Date": "1141023", "Code": "0056", "Name": "元大高股息", "Exdividend": "息", "StockDividendRatio": "", "SubscriptionRatio": "", "SubscriptionPricePerShare": "", "CashDividend": "0.866000", "SharesOffered": "", "SharesEmpOwner": "", "SharesholderOwner": "", "StockHoldingRatio": ""}]
+--------------------------------------------------------------------------------
+GET /exchangeReport/TWT53U  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1302
+[GLOBAL] Fields(10): BestAskPrice, BestAskVolume, BestBidPrice, BestBidVolume, Code, Name, TradePrice, TradeValue, TradeVolume, Transaction
+[GLOBAL] Sample: [{"Code": "0050", "Name": "元大台灣50", "TradeVolume": "46490", "Transaction": "503", "TradeValue": "2993812", "TradePrice": "64.4000", "BestBidPrice": "64.4000", "BestBidVolume": "163253", "BestAskPrice": "64.4500", "BestAskVolume": "12678"}, {"Code": "0051", "Name": "元大中型100", "TradeVolume": "160", "Transaction": "4", "TradeValue": "14608", "TradePrice": "91.3000", "BestBidPrice": "91.0500", "BestBidVolume": "4157", "BestAskPrice": "91.3000", "BestAskVolume": "1205"}, {"Code": "0052", "Name": "富邦科
+[CODES] code_key='Code'
+  - 00939: count=1 fields=10
+    sample: [{"Code": "00939", "Name": "統一台灣高息動能", "TradeVolume": "1731", "Transaction": "13", "TradeValue": "25076", "TradePrice": "14.4900", "BestBidPrice": "14.4800", "BestBidVolume": "6635", "BestAskPrice": "14.4900", "BestAskVolume": "5419"}]
+  - 00934: count=1 fields=10
+    sample: [{"Code": "00934", "Name": "中信成長高股息", "TradeVolume": "2221", "Transaction": "10", "TradeValue": "47083", "TradePrice": "21.2000", "BestBidPrice": "21.2000", "BestBidVolume": "52986", "BestAskPrice": "21.2100", "BestAskVolume": "1913"}]
+  - 00937B: count=0 fields=0
+  - 00929: count=1 fields=10
+    sample: [{"Code": "00929", "Name": "復華台灣科技優息", "TradeVolume": "52829", "Transaction": "165", "TradeValue": "1004212", "TradePrice": "19.0100", "BestBidPrice": "19.0000", "BestBidVolume": "18026", "BestAskPrice": "19.0100", "BestAskVolume": "40902"}]
+  - 0056: count=1 fields=10
+    sample: [{"Code": "0056", "Name": "元大高股息", "TradeVolume": "22376", "Transaction": "199", "TradeValue": "838345", "TradePrice": "37.4700", "BestBidPrice": "37.4700", "BestBidVolume": "70437", "BestAskPrice": "37.4800", "BestAskVolume": "31475"}]
+--------------------------------------------------------------------------------
+GET /exchangeReport/TWT84U  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=34081
+[GLOBAL] Fields(11): AllowOddLotTrade, Code, LastTradingDay, Name, PreviousDayLimitDown, PreviousDayLimitUp, PreviousDayOpeningRefPrice, PreviousDayPrice, TodayLimitDown, TodayLimitUp, TodayOpeningRefPrice
+[GLOBAL] Sample: [{"Code": "0050", "Name": "元大台灣50", "TodayLimitUp": "71", "TodayOpeningRefPrice": "64", "TodayLimitDown": "58", "PreviousDayOpeningRefPrice": "63", "PreviousDayPrice": "64", "PreviousDayLimitUp": "64", "PreviousDayLimitDown": "64", "LastTradingDay": "1141029", "AllowOddLotTrade": "可"}, {"Code": "0051", "Name": "元大中型100", "TodayLimitUp": "100", "TodayOpeningRefPrice": "91", "TodayLimitDown": "82", "PreviousDayOpeningRefPrice": "90", "PreviousDayPrice": "91", "PreviousDayLimitUp": "91", "PreviousD
+[CODES] code_key='Code'
+  - 00939: count=1 fields=11
+    sample: [{"Code": "00939", "Name": "統一台灣高息動能", "TodayLimitUp": "16", "TodayOpeningRefPrice": "14", "TodayLimitDown": "13", "PreviousDayOpeningRefPrice": "14", "PreviousDayPrice": "14", "PreviousDayLimitUp": "14", "PreviousDayLimitDown": "14", "LastTradingDay": "1141029", "AllowOddLotTrade": "可"}]
+  - 00934: count=1 fields=11
+    sample: [{"Code": "00934", "Name": "中信成長高股息", "TodayLimitUp": "23", "TodayOpeningRefPrice": "21", "TodayLimitDown": "19", "PreviousDayOpeningRefPrice": "21", "PreviousDayPrice": "21", "PreviousDayLimitUp": "21", "PreviousDayLimitDown": "21", "LastTradingDay": "1141029", "AllowOddLotTrade": "可"}]
+  - 00937B: count=0 fields=0
+  - 00929: count=1 fields=11
+    sample: [{"Code": "00929", "Name": "復華台灣科技優息", "TodayLimitUp": "21", "TodayOpeningRefPrice": "19", "TodayLimitDown": "17", "PreviousDayOpeningRefPrice": "19", "PreviousDayPrice": "19", "PreviousDayLimitUp": "19", "PreviousDayLimitDown": "19", "LastTradingDay": "1141029", "AllowOddLotTrade": "可"}]
+  - 0056: count=1 fields=11
+    sample: [{"Code": "0056", "Name": "元大高股息", "TodayLimitUp": "41", "TodayOpeningRefPrice": "37", "TodayLimitDown": "34", "PreviousDayOpeningRefPrice": "37", "PreviousDayPrice": "37", "PreviousDayLimitUp": "37", "PreviousDayLimitDown": "37", "LastTradingDay": "1141029", "AllowOddLotTrade": "可"}]
+--------------------------------------------------------------------------------
+GET /exchangeReport/TWT85U  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=13
+[GLOBAL] Fields(3): Code, Name, PeriodicCallAuctionTrading
+[GLOBAL] Sample: [{"Code": "1213", "Name": "大飲", "PeriodicCallAuctionTrading": "  "}, {"Code": "1538", "Name": "正峰", "PeriodicCallAuctionTrading": "  "}, {"Code": "2314", "Name": "台揚", "PeriodicCallAuctionTrading": "**"}]
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /exchangeReport/TWT88U  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1
+[GLOBAL] Fields(12): 1stTradingDate, 5thTradingDate, AccTradingVolume, BuySell, Code, Name, OverAllotmentShares, PriceUnderwritten, SecurCode, SecurName, TradingPrice, TradingVolume
+[GLOBAL] Sample: [{"SecurCode": "7780", "SecurName": "大研生醫", "1stTradingDate": "1140909", "5thTradingDate": "1140915", "PriceUnderwritten": "158.00", "OverAllotmentShares": "2835", "Code": "22", "Name": "華南永昌", "BuySell": "S", "TradingPrice": "204.00", "TradingVolume": "10", "AccTradingVolume": "10"}]
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /exchangeReport/TWTAWU  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=89
+[GLOBAL] Fields(7): Code, Name, Number, TradingHaltDate, TradingHaltTime, TradingResumptionDate, TradingResumptionTime
+[GLOBAL] Sample: [{"Number": "1", "Code": "030319", "Name": "台泥凱基54購01", "TradingHaltDate": "1140813", "TradingHaltTime": "080000", "TradingResumptionDate": "1140814", "TradingResumptionTime": "080000"}, {"Number": "2", "Code": "030548", "Name": "台泥統一57購01", "TradingHaltDate": "1140813", "TradingHaltTime": "080000", "TradingResumptionDate": "1140814", "TradingResumptionTime": "080000"}, {"Number": "3", "Code": "030618", "Name": "台泥元大55購01", "TradingHaltDate": "1140813", "TradingHaltTime": "080000", "TradingResum
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /exchangeReport/TWTB4U  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1142
+[GLOBAL] Fields(4): Code, Date, Name, Suspension
+[GLOBAL] Sample: [{"Date": "1141030", "Code": "0050", "Name": "元大台灣50", "Suspension": ""}, {"Date": "1141030", "Code": "0051", "Name": "元大中型100", "Suspension": ""}, {"Date": "1141030", "Code": "0052", "Name": "富邦科技", "Suspension": ""}]
+[CODES] code_key='Code'
+  - 00939: count=1 fields=4
+    sample: [{"Date": "1141030", "Code": "00939", "Name": "統一台灣高息動能", "Suspension": "Y"}]
+  - 00934: count=1 fields=4
+    sample: [{"Date": "1141030", "Code": "00934", "Name": "中信成長高股息", "Suspension": ""}]
+  - 00937B: count=0 fields=0
+  - 00929: count=1 fields=4
+    sample: [{"Date": "1141030", "Code": "00929", "Name": "復華台灣科技優息", "Suspension": ""}]
+  - 0056: count=1 fields=4
+    sample: [{"Date": "1141030", "Code": "0056", "Name": "元大高股息", "Suspension": ""}]
+--------------------------------------------------------------------------------
+GET /exchangeReport/TWTBAU1  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=17
+[GLOBAL] Fields(5): Code, EndDate, Name, Reason, StartDate
+[GLOBAL] Sample: [{"Code": "0052", "Name": "富邦科技", "StartDate": "1141114", "EndDate": "1141120", "Reason": "ETF分割"}, {"Code": "00939", "Name": "統一台灣高息動能", "StartDate": "1141029", "EndDate": "1141104", "Reason": "分配收益"}, {"Code": "00940", "Name": "元大台灣價值高息", "StartDate": "1141103", "EndDate": "1141107", "Reason": "分配收益"}]
+[CODES] code_key='Code'
+  - 00939: count=1 fields=5
+    sample: [{"Code": "00939", "Name": "統一台灣高息動能", "StartDate": "1141029", "EndDate": "1141104", "Reason": "分配收益"}]
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /exchangeReport/TWTBAU2  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=6
+[GLOBAL] Fields(5): Code, EndDate, Name, Reason, StartDate
+[GLOBAL] Sample: [{"Code": "00939", "Name": "統一台灣高息動能", "StartDate": "1141029", "EndDate": "1141104", "Reason": "分配收益"}, {"Code": "1463", "Name": "強盛新", "StartDate": "1141027", "EndDate": "1141031", "Reason": "臨時會"}, {"Code": "2109", "Name": "華豐", "StartDate": "1141027", "EndDate": "1141031", "Reason": "臨時會"}]
+[CODES] code_key='Code'
+  - 00939: count=1 fields=5
+    sample: [{"Code": "00939", "Name": "統一台灣高息動能", "StartDate": "1141029", "EndDate": "1141104", "Reason": "分配收益"}]
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /fund/MI_QFIIS_cat  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=36
+[GLOBAL] Fields(5): ForeignMainlandAreaShare, IndustryCat, Numbers, Percentage, ShareNumber
+[GLOBAL] Sample: [{"IndustryCat": "ETF", "Numbers": "204", "ShareNumber": "161239954412", "ForeignMainlandAreaShare": "2721308016", "Percentage": "1.69"}, {"IndustryCat": "水泥工業", "Numbers": "8", "ShareNumber": "14092571612", "ForeignMainlandAreaShare": "2343166726", "Percentage": "16.63"}, {"IndustryCat": "食品工業", "Numbers": "25", "ShareNumber": "14092118644", "ForeignMainlandAreaShare": "2710251606", "Percentage": "19.23"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /fund/MI_QFIIS_sort_20  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=20
+[GLOBAL] Fields(9): AvailableInvestPer, AvailableShare, Code, Name, Rank, ShareNumber, SharesHeld, SharesHeldPer, Upperlimit
+[GLOBAL] Sample: [{"Rank": "1", "Code": "2923", "Name": "鼎固-KY", "ShareNumber": "1740296982", "AvailableShare": "11018659", "SharesHeld": "1729278323", "AvailableInvestPer": "0.63", "SharesHeldPer": "99.36", "Upperlimit": "100.00"}, {"Rank": "2", "Code": "8482", "Name": "商億-KY", "ShareNumber": "107444000", "AvailableShare": "8839984", "SharesHeld": "98604016", "AvailableInvestPer": "8.22", "SharesHeldPer": "91.77", "Upperlimit": "100.00"}, {"Rank": "3", "Code": "6890", "Name": "來億-KY", "ShareNumber": "249400000"
+[CODES] code_key='Code'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /holidaySchedule/holidaySchedule  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=24
+[GLOBAL] Fields(4): Date, Description, Name, Weekday
+[GLOBAL] Sample: [{"Name": "中華民國開國紀念日", "Date": "1140101", "Weekday": "三", "Description": "依規定放假1日。"}, {"Name": "國曆新年開始交易日", "Date": "1140102", "Weekday": "四", "Description": "國曆新年開始交易。"}, {"Name": "農曆春節前最後交易日", "Date": "1140122", "Weekday": "三", "Description": "農曆春節前最後交易。"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /indicesReport/FRMSA  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=18
+[GLOBAL] Fields(3): Date, FormosaIndex, FormosaTotalReturnIndex
+[GLOBAL] Sample: [{"Date": "1141001", "FormosaIndex": "29128", "FormosaTotalReturnIndex": "44522"}, {"Date": "1141002", "FormosaIndex": "29550", "FormosaTotalReturnIndex": "45168"}, {"Date": "1141003", "FormosaIndex": "29953", "FormosaTotalReturnIndex": "45783"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /indicesReport/MFI94U  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=18
+[GLOBAL] Fields(2): Date, TAIEXTotalReturnIndex
+[GLOBAL] Sample: [{"Date": "1141001", "TAIEXTotalReturnIndex": "59036"}, {"Date": "1141002", "TAIEXTotalReturnIndex": "59934"}, {"Date": "1141003", "TAIEXTotalReturnIndex": "60804"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /indicesReport/MI_5MINS_HIST  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=18
+[GLOBAL] Fields(5): ClosingIndex, Date, HighestIndex, LowestIndex, OpeningIndex
+[GLOBAL] Sample: [{"Date": "1141001", "OpeningIndex": "26078.29", "HighestIndex": "26325.79", "LowestIndex": "25982.91", "ClosingIndex": "25982.91"}, {"Date": "1141002", "OpeningIndex": "26392.31", "HighestIndex": "26489.79", "LowestIndex": "26330.25", "ClosingIndex": "26378.39"}, {"Date": "1141003", "OpeningIndex": "26435.10", "HighestIndex": "26761.06", "LowestIndex": "26410.03", "ClosingIndex": "26761.06"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /indicesReport/TAI50I  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=18
+[GLOBAL] Fields(3): Date, Taiwan50Index, Taiwan50TotalReturnIndex
+[GLOBAL] Sample: [{"Date": "1141001", "Taiwan50Index": "22902.43", "Taiwan50TotalReturnIndex": "52179.87"}, {"Date": "1141002", "Taiwan50Index": "23396.99", "Taiwan50TotalReturnIndex": "53306.66"}, {"Date": "1141003", "Taiwan50Index": "23859.65", "Taiwan50TotalReturnIndex": "54360.75"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /news/eventList  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=51
+[GLOBAL] Fields(3): Details, No, Title
+[GLOBAL] Sample: [{"No": "1", "Title": "證券商金融零信任會議（114年11月18日）", "Details": "https://www.twse.com.tw/zh/about/news/event/content.html?8a8216d6993bf151019a2357e3f90400"}, {"No": "2", "Title": "114年證券經紀商及自營商高階主管業務宣導會", "Details": "https://www.twse.com.tw/zh/about/news/event/content.html?8a8216d6993bf151019a0acbbfd403d4"}, {"No": "3", "Title": "2025年上市公司辦理法人說明會(11月1日至11月30日)", "Details": "https://www.twse.com.tw/zh/about/news/event/content.html?8a8216d6993bf151019a0a83d1c70395"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /news/newsList  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=704
+[GLOBAL] Fields(3): Date, Title, Url
+[GLOBAL] Sample: [{"Title": "臺灣證券交易所針對北極星藥業集團股份有限公司（北極星藥業-KY，公司代號:6550）違反重大訊息規定，處以新臺幣伍萬元之違約金", "Url": "https://www.twse.com.tw/zh/about/news/news/content.html?8a8216d6993bf151019a2f2a1c6b0439", "Date": "1141029"}, {"Title": "WFE年會 證交所分享臺灣ETF普惠金融盛況", "Url": "https://www.twse.com.tw/zh/about/news/news/content.html?8a8216d6993bf151019a2f0e08b10434", "Date": "1141029"}, {"Title": "微矽電子-創自本（114）年10月30日起得為融資融券交易", "Url": "https://www.twse.com.tw/zh/about/news/news/content.html?8a8216d6993bf151019a2ed28b640430", "Date"
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/OpenData_BRK01  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=862
+[GLOBAL] Fields(5): 出表日期, 女性員工人數, 男性員工人數, 總人數, 證券商代號
+[GLOBAL] Sample: [{"出表日期": "1141030", "證券商代號": "1020", "男性員工人數": "64", "女性員工人數": "104", "總人數": "168"}, {"出表日期": "1141030", "證券商代號": "1021", "男性員工人數": "12", "女性員工人數": "37", "總人數": "49"}, {"出表日期": "1141030", "證券商代號": "1022", "男性員工人數": "7", "女性員工人數": "25", "總人數": "32"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/OpenData_BRK02  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=811
+[GLOBAL] Fields(6): 出表日期, 地址, 證券商代號, 證券商名稱, 開業日, 電話
+[GLOBAL] Sample: [{"出表日期": "1141030", "證券商代號": "1021", "證券商名稱": "合庫- 台中", "開業日": "100/12/02", "地址": "台中市西區民權路91號6樓", "電話": "04-22255141"}, {"出表日期": "1141030", "證券商代號": "1022", "證券商名稱": "合庫-台南", "開業日": "100/12/02", "地址": "台南市北區成功路48號3樓", "電話": "06-2260148"}, {"出表日期": "1141030", "證券商代號": "1023", "證券商名稱": "合庫-高雄", "開業日": "100/12/02", "地址": "高雄市大勇路97號5樓", "電話": "07-5319755"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap01  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=4
+[GLOBAL] Fields(30): 主辦會計, 內部稽核, 內部稽核-模型管理, 公司治理人員, 共同行銷, 其他人員, 出表日期, 受託管理私募股權基金人員, 受託買賣, 受託買賣（衍生性商品銷售）, 合作推廣, 合計, 基金買賣及互易, 徵信, 承銷人員, 數位服務（客戶服務中心）, 數位服務（數位體驗專區）, 法令遵循, 營業櫃檯輸單, 結算交割, 職位, 股務人員, 自行買賣, 融資融券, 證券借貸, 財富管理, 開戶, 風險管理-其他, 風險管理-模型管理, 驗證人員-模型管理
+[GLOBAL] Sample: [{"出表日期": "1141001", "職位": "高級業務員", "受託買賣": "2127", "受託買賣（衍生性商品銷售）": "7906", "內部稽核": "916", "融資融券": "3482", "證券借貸": "2921", "自行買賣": "1702", "其他人員": "4371", "結算交割": "744", "股務人員": "245", "承銷人員": "1311", "法令遵循": "198", "風險管理-模型管理": "101", "驗證人員-模型管理": "94", "內部稽核-模型管理": "49", "共同行銷": "1726", "合作推廣": "104", "開戶": "4210", "徵信": "3929", "營業櫃檯輸單": "2410", "主辦會計": "83", "財富管理": "8924", "風險管理-其他": "97", "公司治理人員": "8", "受託管理私募股權基金人員": "0", "基金買賣及互易": "0", "數位服務（數位體驗專區）": "0", "數位服務（客戶服務中心）": "5", "合計": "
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap02_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1026
+[GLOBAL] Fields(4): 公司代號, 公司名稱, 出表日期, 大股東名稱
+[GLOBAL] Sample: [{"出表日期": "1141029", "公司代號": "1102", "公司名稱": "亞泥", "大股東名稱": "遠東新世紀股份有限公司"}, {"出表日期": "1141029", "公司代號": "1103", "公司名稱": "嘉泥", "大股東名稱": "嘉新國際股份有限公司"}, {"出表日期": "1141029", "公司代號": "1104", "公司名稱": "環泥", "大股東名稱": "升元投資股份有限公司"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap03_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1065
+[GLOBAL] Fields(33): 上市日期, 代理發言人, 住址, 傳真機號碼, 公司代號, 公司名稱, 公司簡稱, 出表日期, 外國企業註冊地國, 實收資本額, 已發行普通股數或TDR原股發行股數, 成立日期, 普通股每股面額, 營利事業統一編號, 特別股, 產業別, 發言人, 發言人職稱, 私募股數, 簽證會計師1, 簽證會計師2, 簽證會計師事務所, 網址, 編制財務報表類型, 總機電話, 總經理, 股票過戶機構, 英文簡稱, 英文通訊地址, 董事長, 過戶地址, 過戶電話, 電子郵件信箱
+[GLOBAL] Sample: [{"出表日期": "1141029", "公司代號": "1101", "公司名稱": "臺灣水泥股份有限公司", "公司簡稱": "台泥", "外國企業註冊地國": "－ ", "產業別": "01", "住址": "台北市中山北路2段113號", "營利事業統一編號": "11913502", "董事長": "張安平", "總經理": "程耀輝", "發言人": "葉毓君", "發言人職稱": "永續長", "代理發言人": "賴家柔", "總機電話": "(02)2531-7099", "成立日期": "19501229", "上市日期": "19620209", "普通股每股面額": "新台幣                 10.0000元", "實收資本額": "77511817420", "私募股數": "0", "特別股": "200000000", "編制財務報表類型": "1", "股票過戶機構": "中國信託商業銀行代理部", "過戶電話": "66365566", "過戶地址": "台北市重慶南路一段83號5樓", "簽證會計師事務所": "勤業眾信聯合會計師
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap03_P  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=304
+[GLOBAL] Fields(33): 上市日期, 代理發言人, 住址, 傳真機號碼, 公司代號, 公司名稱, 公司簡稱, 出表日期, 外國企業註冊地國, 實收資本額, 已發行普通股數或TDR原股發行股數, 成立日期, 普通股每股面額, 營利事業統一編號, 特別股, 產業別, 發言人, 發言人職稱, 私募股數, 簽證會計師1, 簽證會計師2, 簽證會計師事務所, 網址, 編制財務報表類型, 總機電話, 總經理, 股票過戶機構, 英文簡稱, 英文通訊地址, 董事長, 過戶地址, 過戶電話, 電子郵件信箱
+[GLOBAL] Sample: [{"出表日期": "1141029", "公司代號": "000104", "公司名稱": "臺銀綜合證券股份有限公司", "公司簡稱": "臺銀證券", "外國企業註冊地國": "－ ", "產業別": "XX", "住址": "臺北市重慶南路1段58號4~9樓", "營利事業統一編號": "28428390", "董事長": "李樹森", "總經理": "張正康", "發言人": "梁文奎", "發言人職稱": "管理部經理", "代理發言人": "會計部連宏銘經理", "總機電話": "(02)2388-2188", "成立日期": "20080102", "上市日期": "20131021", "普通股每股面額": "新台幣                 10.0000元", "實收資本額": "3000000000", "私募股數": "0", "特別股": "0", "編制財務報表類型": "2", "股票過戶機構": "", "過戶電話": "", "過戶地址": "", "簽證會計師事務所": "安侯建業聯合會計師事務所", "簽證會計師1": "陳富仁", "簽證
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap04_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=268
+[GLOBAL] Fields(9): 主旨 , 事實發生日, 公司代號, 公司名稱, 出表日期, 發言日期, 發言時間, 符合條款, 說明
+[GLOBAL] Sample: [{"出表日期": "1141030", "發言日期": "1141029", "發言時間": "63810", "公司代號": "4137", "公司名稱": "麗豐-KY", "主旨 ": "公告本公司114年第三季合併財務報告董事會召開日期", "符合條款": "第31款", "事實發生日": "1141029", "說明": "1.董事會召集通知日:114/10/29\n2.董事會預計召開日期:114/11/06\n3.預計提報董事會或經董事會決議之財務報告或\n年度自結財務資訊年季:114年第三季合併財務報告\n4.其他應敘明事項:無"}, {"出表日期": "1141030", "發言日期": "1141029", "發言時間": "70004", "公司代號": "8422", "公司名稱": "可寧衛", "主旨 ": "公告本公司股票面額由「新台幣10元」變更為「新台幣1元」，\r\n公告期間：114年10月16日至115年01月15日。", "符合條款": "第51款", "事實發生日": "1140819", "說明": "1.事實發生日：民國114年08月19日
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap05_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1056
+[GLOBAL] Fields(14): 備註, 公司代號, 公司名稱, 出表日期, 營業收入-上月比較增減(%), 營業收入-上月營收, 營業收入-去年同月增減(%), 營業收入-去年當月營收, 營業收入-當月營收, 產業別, 累計營業收入-前期比較增減(%), 累計營業收入-去年累計營收, 累計營業收入-當月累計營收, 資料年月
+[GLOBAL] Sample: [{"出表日期": "1141017", "資料年月": "11409", "公司代號": "1101", "公司名稱": "台泥", "產業別": "水泥工業", "營業收入-當月營收": "13306676", "營業收入-上月營收": "12214776", "營業收入-去年當月營收": "13325249", "營業收入-上月比較增減(%)": "8.939173342188182", "營業收入-去年同月增減(%)": "-0.1393820107976969", "累計營業收入-當月累計營收": "109438297", "累計營業收入-去年累計營收": "105591346", "累計營業收入-前期比較增減(%)": "3.6432445893814065", "備註": "-"}, {"出表日期": "1141017", "資料年月": "11409", "公司代號": "1102", "公司名稱": "亞泥", "產業別": "水泥工業", "營業收入-當月營收": "6388217", "營業收入-上月營收": "5663764", "營業收入-去年當月營收": "
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap05_P  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=308
+[GLOBAL] Fields(14): 備註, 公司代號, 公司名稱, 出表日期, 營業收入-上月比較增減(%), 營業收入-上月營收, 營業收入-去年同月增減(%), 營業收入-去年當月營收, 營業收入-當月營收, 產業別, 累計營業收入-前期比較增減(%), 累計營業收入-去年累計營收, 累計營業收入-當月累計營收, 資料年月
+[GLOBAL] Sample: [{"出表日期": "1141017", "資料年月": "11409", "公司代號": "000104", "公司名稱": "臺銀證券", "產業別": "證券", "營業收入-當月營收": "125280", "營業收入-上月營收": "133439", "營業收入-去年當月營收": "91029", "營業收入-上月比較增減(%)": "-6.114404334564857", "營業收入-去年同月增減(%)": "37.62647068516627", "累計營業收入-當月累計營收": "818123", "累計營業收入-去年累計營收": "1039143", "累計營業收入-前期比較增減(%)": "-21.269449921714337", "備註": "-"}, {"出表日期": "1141017", "資料年月": "11409", "公司代號": "000218", "公司名稱": "亞東證券", "產業別": "證券", "營業收入-當月營收": "118638", "營業收入-上月營收": "176851", "營業收入-去年當月營收": "23852", "營
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap06_L_basi  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=10
+[GLOBAL] Fields(25): 停業單位損益, 公司代號, 公司名稱, 其他綜合損益（稅後）, 出表日期, 利息以外淨損益, 利息淨收益, 合併前非屬共同控制股權損益, 合併前非屬共同控制股權綜合損益淨額, 呆帳費用、承諾及保證責任準備提存, 基本每股盈餘（元）, 季別, 年度, 所得稅費用（利益）, 本期淨利（淨損）, 本期綜合損益總額（稅後）, 淨利（損）歸屬於共同控制下前手權益, 淨利（損）歸屬於母公司業主, 淨利（損）歸屬於非控制權益, 營業費用, 綜合損益總額歸屬於共同控制下前手權益, 綜合損益總額歸屬於母公司業主, 綜合損益總額歸屬於非控制權益, 繼續營業單位本期淨利（淨損）, 繼續營業單位稅前淨利（淨損）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "2801", "公司名稱": "彰銀", "利息淨收益": "12965050.00", "利息以外淨損益": "9569125.00", "呆帳費用、承諾及保證責任準備提存": "1145687.00", "營業費用": "10407226.00", "繼續營業單位稅前淨利（淨損）": "10981262.00", "所得稅費用（利益）": "1851952.00", "繼續營業單位本期淨利（淨損）": "9129310.00", "停業單位損益": "", "合併前非屬共同控制股權損益": "", "本期淨利（淨損）": "9129310.00", "其他綜合損益（稅後）": "-2889905.00", "合併前非屬共同控制股權綜合損益淨額": "", "本期綜合損益總額（稅後）": "6239405.00", "淨利（損）歸屬於母公司業主": "9129310.00", "淨利（損）歸屬於共同控制下前手權益": "", "淨利（損）歸屬於非控制權益": "", "綜合損益
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap06_L_bd  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=3
+[GLOBAL] Fields(25): 停業單位損益, 公司代號, 公司名稱, 出表日期, 合併前非屬共同控制股權損益, 合併前非屬共同控制股權綜合損益淨額, 基本每股盈餘（元）, 季別, 年度, 所得稅費用（利益）, 支出及費用, 收益, 本期其他綜合損益（稅後淨額）, 本期淨利（淨損）, 本期綜合損益總額, 淨利（損）歸屬於母公司業主, 淨利（損）歸屬於非控制權益, 淨利（淨損）歸屬於共同控制下前手權益, 營業利益, 營業外損益, 稅前淨利（淨損）, 綜合損益總額歸屬於共同控制下前手權益, 綜合損益總額歸屬於母公司業主, 綜合損益總額歸屬於非控制權益, 繼續營業單位本期淨利（淨損）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "2855", "公司名稱": "統一證", "收益": "4039716.00", "支出及費用": "4038133.00", "營業利益": "1583.00", "營業外損益": "750684.00", "稅前淨利（淨損）": "752267.00", "所得稅費用（利益）": "221809.00", "繼續營業單位本期淨利（淨損）": "530458.00", "停業單位損益": "", "合併前非屬共同控制股權損益": "", "本期淨利（淨損）": "530458.00", "本期其他綜合損益（稅後淨額）": "-98953.00", "合併前非屬共同控制股權綜合損益淨額": "", "本期綜合損益總額": "431505.00", "淨利（損）歸屬於母公司業主": "520549.00", "淨利（淨損）歸屬於共同控制下前手權益": "", "淨利（損）歸屬於非控制權益": "9909.00", "綜合損益總額歸屬於母公司業主": "419754.00", "綜
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap06_L_ci  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1018
+[GLOBAL] Fields(33): 停業單位損益, 公司代號, 公司名稱, 其他收益及費損淨額, 其他綜合損益（淨額）, 出表日期, 原始認列生物資產及農產品之利益（損失）, 合併前非屬共同控制股權損益, 合併前非屬共同控制股權綜合損益淨額, 基本每股盈餘（元）, 季別, 已實現銷貨（損）益, 年度, 所得稅費用（利益）, 未實現銷貨（損）益, 本期淨利（淨損）, 本期綜合損益總額, 淨利（淨損）歸屬於共同控制下前手權益, 淨利（淨損）歸屬於母公司業主, 淨利（淨損）歸屬於非控制權益, 營業利益（損失）, 營業外收入及支出, 營業成本, 營業收入, 營業毛利（毛損）, 營業毛利（毛損）淨額, 營業費用, 生物資產當期公允價值減出售成本之變動利益（損失）, 稅前淨利（淨損）, 綜合損益總額歸屬於共同控制下前手權益, 綜合損益總額歸屬於母公司業主, 綜合損益總額歸屬於非控制權益, 繼續營業單位本期淨利（淨損）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "1101", "公司名稱": "台泥", "營業收入": "70310678.00", "營業成本": "59070124.00", "原始認列生物資產及農產品之利益（損失）": "", "生物資產當期公允價值減出售成本之變動利益（損失）": "", "營業毛利（毛損）": "11240554.00", "未實現銷貨（損）益": "", "已實現銷貨（損）益": "", "營業毛利（毛損）淨額": "11240554.00", "營業費用": "7824656.00", "其他收益及費損淨額": "", "營業利益（損失）": "3415898.00", "營業外收入及支出": "-344331.00", "稅前淨利（淨損）": "3071567.00", "所得稅費用（利益）": "1573103.00", "繼續營業單位本期淨利（淨損）": "1498464.00", "停業單位損益": "", "合併前非屬共同控制股權損益": "", "本期淨利（淨損）": "149846
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap06_L_fh  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=13
+[GLOBAL] Fields(25): 保險負債準備淨變動, 停業單位損益, 公司代號, 公司名稱, 其他收益及費損淨額, 出表日期, 利息以外淨收益, 利息淨收益, 呆帳費用、承諾及保證責任準備提存, 基本每股盈餘（元）, 季別, 年度, 本期其他綜合損益（稅後淨額）, 本期稅後淨利（淨損）, 本期綜合損益總額, 淨利（淨損）歸屬於共同控制下前手權益, 淨利（淨損）歸屬於母公司業主, 淨利（淨損）歸屬於非控制權益, 淨收益, 營業費用, 綜合損益總額歸屬於共同控制下前手權益, 綜合損益總額歸屬於母公司業主, 綜合損益總額歸屬於非控制權益, 繼續營業單位本期淨利（淨損）, 繼續營業單位稅前損益
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "2880", "公司名稱": "華南金", "利息淨收益": "14325903.00", "其他收益及費損淨額": "18037623.00", "利息以外淨收益": "32363526.00", "淨收益": "-565719.00", "呆帳費用、承諾及保證責任準備提存": "883343.00", "保險負債準備淨變動": "17242079.00", "營業費用": "14803823.00", "繼續營業單位稅前損益": "3121312.00", "繼續營業單位本期淨利（淨損）": "11682511.00", "停業單位損益": "", "本期稅後淨利（淨損）": "11682511.00", "本期其他綜合損益（稅後淨額）": "295258.00", "本期綜合損益總額": "11977769.00", "淨利（淨損）歸屬於母公司業主": "11682419.00", "淨利（淨損）歸屬於共同控制下前手權益": "", "淨利（淨損）歸屬於非控制權益": "9
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap06_L_ins  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=6
+[GLOBAL] Fields(26): 停業單位損益, 公司代號, 公司名稱, 其他綜合損益（淨額）, 出表日期, 合併前非屬共同控制股權損益, 合併前非屬共同控制股權綜合損益淨額, 基本每股盈餘（元）, 季別, 年度, 所得稅費用（利益）, 本期淨利（淨損）, 本期綜合損益總額, 淨利（淨損）歸屬於共同控制下前手權益, 淨利（淨損）歸屬於母公司業主, 淨利（淨損）歸屬於非控制權益, 營業利益（損失）, 營業外收入及支出, 營業成本, 營業收入, 營業費用, 綜合損益總額歸屬於共同控制下前手權益, 綜合損益總額歸屬於母公司業主, 綜合損益總額歸屬於非控制權益, 繼續營業單位本期純益（純損）, 繼續營業單位稅前純益（純損）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "2816", "公司名稱": "旺旺保", "營業收入": "5154575.00", "營業成本": "3568681.00", "營業費用": "1221451.00", "營業利益（損失）": "364443.00", "營業外收入及支出": "18634.00", "繼續營業單位稅前純益（純損）": "383077.00", "所得稅費用（利益）": "158191.00", "繼續營業單位本期純益（純損）": "224886.00", "停業單位損益": "", "合併前非屬共同控制股權損益": "", "本期淨利（淨損）": "224886.00", "其他綜合損益（淨額）": "12804.00", "合併前非屬共同控制股權綜合損益淨額": "", "本期綜合損益總額": "237690.00", "淨利（淨損）歸屬於母公司業主": "", "淨利（淨損）歸屬於共同控制下前手權益": "", "淨利（淨損）歸屬於非控制權益": "", "綜合損益總額歸屬於母公司業主
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap06_L_mim  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=4
+[GLOBAL] Fields(21): 停業單位損益, 公司代號, 公司名稱, 其他綜合損益, 出表日期, 基本每股盈餘（元）, 季別, 年度, 所得稅費用（利益）, 支出, 收入, 本期淨利（淨損）, 本期綜合損益總額, 淨利（淨損）歸屬於共同控制下前手權益, 淨利（淨損）歸屬於母公司業主, 淨利（淨損）歸屬於非控制權益, 綜合損益總額歸屬於共同控制下前手權益, 綜合損益總額歸屬於母公司業主, 綜合損益總額歸屬於非控制權益, 繼續營業單位本期淨利（淨損）, 繼續營業單位稅前淨利（淨損）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "1409", "公司名稱": "新纖", "收入": "20103421.00", "支出": "19524543.00", "繼續營業單位稅前淨利（淨損）": "578878.00", "所得稅費用（利益）": "79933.00", "繼續營業單位本期淨利（淨損）": "498945.00", "停業單位損益": "", "本期淨利（淨損）": "498945.00", "其他綜合損益": "-439941.00", "本期綜合損益總額": "59004.00", "淨利（淨損）歸屬於母公司業主": "288663.00", "淨利（淨損）歸屬於共同控制下前手權益": "", "淨利（淨損）歸屬於非控制權益": "210282.00", "綜合損益總額歸屬於母公司業主": "-112475.00", "綜合損益總額歸屬於共同控制下前手權益": "", "綜合損益總額歸屬於非控制權益": "171479.00", "基本每股盈餘（元）": "0.18"}, {"出表日期": "
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap06_X_basi  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=34
+[GLOBAL] Fields(25): 停業單位損益, 公司代號, 公司名稱, 其他綜合損益（稅後）, 出表日期, 利息以外淨損益, 利息淨收益, 合併前非屬共同控制股權損益, 合併前非屬共同控制股權綜合損益淨額, 呆帳費用、承諾及保證責任準備提存, 基本每股盈餘（元）, 季別, 年度, 所得稅費用（利益）, 本期稅後淨利（淨損）, 本期綜合損益總額（稅後）, 淨利（損）歸屬於共同控制下前手權益, 淨利（損）歸屬於母公司業主, 淨利（損）歸屬於非控制權益, 營業費用, 綜合損益總額歸屬於共同控制下前手權益, 綜合損益總額歸屬於母公司業主, 綜合損益總額歸屬於非控制權益, 繼續營業單位本期稅後淨利（淨損）, 繼續營業單位稅前淨利（淨損）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "2807", "公司名稱": "渣打銀行", "利息淨收益": "3526896.00", "利息以外淨損益": "5295692.00", "呆帳費用、承諾及保證責任準備提存": "505905.00", "營業費用": "5496480.00", "繼續營業單位稅前淨利（淨損）": "2820203.00", "所得稅費用（利益）": "322232.00", "繼續營業單位本期稅後淨利（淨損）": "2497971.00", "停業單位損益": "", "合併前非屬共同控制股權損益": "", "本期稅後淨利（淨損）": "2497971.00", "其他綜合損益（稅後）": "889853.00", "合併前非屬共同控制股權綜合損益淨額": "", "本期綜合損益總額（稅後）": "3387824.00", "淨利（損）歸屬於母公司業主": "", "淨利（損）歸屬於共同控制下前手權益": "", "淨利（損）歸屬於非控制權益": "", "綜合損益總額歸屬於母公司業主"
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap06_X_bd  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=28
+[GLOBAL] Fields(25): 停業單位損益, 公司代號, 公司名稱, 出表日期, 合併前非屬共同控制股權損益, 合併前非屬共同控制股權綜合損益淨額, 基本每股盈餘（元）, 季別, 年度, 所得稅費用（利益）, 支出及費用, 收益, 本期其他綜合損益（稅後淨額）, 本期淨利（淨損）, 本期綜合損益總額, 淨利（損）歸屬於母公司業主, 淨利（損）歸屬於非控制權益, 淨利（淨損）歸屬於共同控制下前手權益, 營業利益, 營業外損益, 稅前淨利（淨損）, 綜合損益總額歸屬於共同控制下前手權益, 綜合損益總額歸屬於母公司業主, 綜合損益總額歸屬於非控制權益, 繼續營業單位本期淨利（淨損）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "000104", "公司名稱": "臺銀證券", "收益": "446547.00", "支出及費用": "355173.00", "營業利益": "91374.00", "營業外損益": "-13.00", "稅前淨利（淨損）": "91361.00", "所得稅費用（利益）": "38730.00", "繼續營業單位本期淨利（淨損）": "52631.00", "停業單位損益": "", "合併前非屬共同控制股權損益": "", "本期淨利（淨損）": "52631.00", "本期其他綜合損益（稅後淨額）": "-35396.00", "合併前非屬共同控制股權綜合損益淨額": "", "本期綜合損益總額": "17235.00", "淨利（損）歸屬於母公司業主": "", "淨利（淨損）歸屬於共同控制下前手權益": "", "淨利（損）歸屬於非控制權益": "", "綜合損益總額歸屬於母公司業主": "", "綜合損益總額歸屬於共同控制下前手權益": "", "綜合損益總額
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap06_X_ci  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=214
+[GLOBAL] Fields(33): 停業單位損益, 公司代號, 公司名稱, 其他收益及費損淨額, 其他綜合損益（淨額）, 出表日期, 原始認列生物資產及農產品之利益（損失）, 合併前非屬共同控制股權損益, 合併前非屬共同控制股權綜合損益淨額, 基本每股盈餘（元）, 季別, 已實現銷貨（損）益, 年度, 所得稅費用（利益）, 未實現銷貨（損）益, 本期淨利（淨損）, 本期綜合損益總額, 淨利（淨損）歸屬於共同控制下前手權益, 淨利（淨損）歸屬於母公司業主, 淨利（淨損）歸屬於非控制權益, 營業利益（損失）, 營業外收入及支出, 營業成本, 營業收入, 營業毛利（毛損）, 營業毛利（毛損）淨額, 營業費用, 生物資產當期公允價值減出售成本之變動利益（損失）, 稅前淨利（淨損）, 綜合損益總額歸屬於共同控制下前手權益, 綜合損益總額歸屬於母公司業主, 綜合損益總額歸屬於非控制權益, 繼續營業單位本期淨利（淨損）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "1111", "公司名稱": "欣欣水泥", "營業收入": "267592.00", "營業成本": "168761.00", "原始認列生物資產及農產品之利益（損失）": "", "生物資產當期公允價值減出售成本之變動利益（損失）": "", "營業毛利（毛損）": "98831.00", "未實現銷貨（損）益": "0.00", "已實現銷貨（損）益": "0.00", "營業毛利（毛損）淨額": "98831.00", "營業費用": "34622.00", "其他收益及費損淨額": "", "營業利益（損失）": "64209.00", "營業外收入及支出": "11260.00", "稅前淨利（淨損）": "75469.00", "所得稅費用（利益）": "14798.00", "繼續營業單位本期淨利（淨損）": "60671.00", "停業單位損益": "", "合併前非屬共同控制股權損益": "", "本期淨利（淨損）": "60671.00", "其他綜合損益
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap06_X_fh  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1
+[GLOBAL] Fields(25): 保險負債準備淨變動, 停業單位損益, 公司代號, 公司名稱, 出表日期, 利息以外淨收益, 利息淨收益, 呆帳費用、承諾及保證責任準備提存, 基本每股盈餘（元）, 季別, 年度, 所得稅（費用）利益, 本期其他綜合損益（稅後淨額）, 本期稅後淨利（淨損）, 本期綜合損益總額, 淨利（淨損）歸屬於共同控制下前手權益, 淨利（淨損）歸屬於母公司業主, 淨利（淨損）歸屬於非控制權益, 淨收益, 營業費用, 綜合損益總額歸屬於共同控制下前手權益, 綜合損益總額歸屬於母公司業主, 綜合損益總額歸屬於非控制權益, 繼續營業單位本期淨利（淨損）, 繼續營業單位稅前損益
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "5868", "公司名稱": "臺灣金控", "利息淨收益": "25420809.00", "利息以外淨收益": "-31476116.00", "淨收益": "-6055307.00", "呆帳費用、承諾及保證責任準備提存": "131111.00", "保險負債準備淨變動": "-23353445.00", "營業費用": "13664722.00", "繼續營業單位稅前損益": "3502305.00", "所得稅（費用）利益": "-104453.00", "繼續營業單位本期淨利（淨損）": "3606758.00", "停業單位損益": "", "本期稅後淨利（淨損）": "3606758.00", "本期其他綜合損益（稅後淨額）": "2990156.00", "本期綜合損益總額": "6596914.00", "淨利（淨損）歸屬於母公司業主": "3606758.00", "淨利（淨損）歸屬於共同控制下前手權益": "", "淨利（淨損）歸屬於非控制權益": ""
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap06_X_ins  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=17
+[GLOBAL] Fields(26): 停業單位損益, 公司代號, 公司名稱, 其他綜合損益（稅後淨額）, 出表日期, 合併前非屬共同控制股權損益, 合併前非屬共同控制股權綜合損益淨額, 基本每股盈餘（元）, 季別, 年度, 所得稅費用（利益）, 本期淨利（淨損）, 本期綜合損益總額, 淨利（淨損）歸屬於共同控制下前手權益, 淨利（淨損）歸屬於母公司業主, 淨利（淨損）歸屬於非控制權益, 營業利益（損失）, 營業外收入及支出, 營業成本, 營業收入, 營業費用, 綜合損益總額歸屬於共同控制下前手權益, 綜合損益總額歸屬於母公司業主, 綜合損益總額歸屬於非控制權益, 繼續營業單位本期純益（純損）, 繼續營業單位稅前純益（純損）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "2823", "公司名稱": "凱基人壽", "營業收入": "116827888.00", "營業成本": "114603093.00", "營業費用": "3339599.00", "營業利益（損失）": "-1114804.00", "營業外收入及支出": "25579.00", "繼續營業單位稅前純益（純損）": "-1089225.00", "所得稅費用（利益）": "-2160281.00", "繼續營業單位本期純益（純損）": "1071056.00", "停業單位損益": "", "合併前非屬共同控制股權損益": "", "本期淨利（淨損）": "1071056.00", "其他綜合損益（稅後淨額）": "-29082137.00", "合併前非屬共同控制股權綜合損益淨額": "", "本期綜合損益總額": "-28011081.00", "淨利（淨損）歸屬於母公司業主": "", "淨利（淨損）歸屬於共同控制下前手權益": "", "淨利（淨損）歸屬於非控制權益
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap06_X_mim  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1
+[GLOBAL] Fields(21): 停業單位損益, 公司代號, 公司名稱, 其他綜合損益, 出表日期, 基本每股盈餘（元）, 季別, 年度, 所得稅費用（利益）, 支出, 收入, 本期淨利（淨損）, 本期綜合損益總額, 淨利（淨損）歸屬於共同控制下前手權益, 淨利（淨損）歸屬於母公司業主, 淨利（淨損）歸屬於非控制權益, 綜合損益總額歸屬於共同控制下前手權益, 綜合損益總額歸屬於母公司業主, 綜合損益總額歸屬於非控制權益, 繼續營業單位本期淨利（淨損）, 繼續營業單位稅前淨利（淨損）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "", "季別": "", "公司代號": "", "公司名稱": "", "收入": "", "支出": "", "繼續營業單位稅前淨利（淨損）": "", "所得稅費用（利益）": "", "繼續營業單位本期淨利（淨損）": "", "停業單位損益": "", "本期淨利（淨損）": "", "其他綜合損益": "", "本期綜合損益總額": "", "淨利（淨損）歸屬於母公司業主": "", "淨利（淨損）歸屬於共同控制下前手權益": "", "淨利（淨損）歸屬於非控制權益": "", "綜合損益總額歸屬於母公司業主": "", "綜合損益總額歸屬於共同控制下前手權益": "", "綜合損益總額歸屬於非控制權益": "", "基本每股盈餘（元）": ""}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap07_L_basi  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=10
+[GLOBAL] Fields(60): 不動產及設備－淨額, 使用權資產－淨額, 保留盈餘, 公司代號, 公司名稱, 共同控制下前手權益, 其他權益, 其他負債, 其他資產－淨額, 其他金融負債, 其他金融資產－淨額, 出表日期, 受限制資產－淨額, 合併前非屬共同控制股權, 央行及同業融資, 央行及銀行同業存款, 存放央行及拆借銀行同業, 存款及匯款, 季別, 年度, 庫藏股票, 待出售資產－淨額, 待分配予業主之資產－淨額, 待註銷股本股數（單位：股）, 應付公司債, 應付款項, 應付金融債券, 應收款項－淨額, 投資性不動產－淨額, 按攤銷後成本衡量之債務工具投資, 採用權益法之投資－淨額, 本期所得稅負債, 本期所得稅資產, 權益─具證券性質之虛擬通貨, 權益總計, 歸屬於母公司業主之權益合計, 母公司暨子公司所持有之母公司庫藏股股數（單位：股）, 每股參考淨值, 無形資產－淨額, 特別股負債, 現金及約當現金, 租賃負債, 股本, 與待出售資產直接相關之負債, 負債準備, 負債總計, 貼現及放款－淨額, 資本公積, 資產總計, 透過其他綜合損益按公允價值衡量之金融資產, 透過損益按公允價值衡量之金融負債, 透過損益按公允價值衡量之金融資產, 遞延所得稅負債, 遞延所得稅資產, 避險之金融負債, 避險之金融資產, 附買回票券及債券負債, 附賣回票券及債券投資淨額, 非控制權益, 預收股款（權益項下）之約當發行股數（單位：股）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "2801", "公司名稱": "彰銀", "現金及約當現金": "38213463.00", "存放央行及拆借銀行同業": "243087255.00", "透過損益按公允價值衡量之金融資產": "120888909.00", "透過其他綜合損益按公允價值衡量之金融資產": "335824216.00", "按攤銷後成本衡量之債務工具投資": "526856341.00", "避險之金融資產": "", "附賣回票券及債券投資淨額": "", "應收款項－淨額": "23218485.00", "本期所得稅資產": "285609.00", "待出售資產－淨額": "", "待分配予業主之資產－淨額": "", "貼現及放款－淨額": "1974251527.00", "採用權益法之投資－淨額": "", "受限制資產－淨額": "", "其他金融資產－淨額": "436474.00", "不動產及設備－淨額": "21474350.00", "使用權資產－淨額": "18516
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap07_L_bd  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=3
+[GLOBAL] Fields(26): 保留盈餘, 公司代號, 公司名稱, 共同控制下前手權益, 其他權益, 出表日期, 合併前非屬共同控制股權, 季別, 年度, 庫藏股票, 待註銷股本股數, 權益總額, 權益－具證券性質之虛擬通貨, 歸屬於母公司業主之權益合計, 母公司暨子公司所持有之母公司庫藏股股數, 每股參考淨值, 流動負債, 流動資產, 股本, 負債總額, 資本公積, 資產總額, 非控制權益, 非流動負債, 非流動資產, 預收股款（權益項下）之約當發行股數
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "2855", "公司名稱": "統一證", "流動資產": "187743684.00", "非流動資產": "10065801.00", "資產總額": "197809485.00", "流動負債": "163272915.00", "非流動負債": "278364.00", "負債總額": "163551279.00", "股本": "16014144.00", "權益－具證券性質之虛擬通貨": "", "資本公積": "88963.00", "保留盈餘": "15890126.00", "其他權益": "2111714.00", "庫藏股票": "", "歸屬於母公司業主之權益合計": "34104947.00", "共同控制下前手權益": "", "合併前非屬共同控制股權": "", "非控制權益": "153259.00", "權益總額": "34258206.00", "預收股款（權益項下）之約當發行股數": "0.00", "待註銷股本股數": "0.00", "母
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap07_L_ci  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1018
+[GLOBAL] Fields(26): 保留盈餘, 公司代號, 公司名稱, 共同控制下前手權益, 其他權益, 出表日期, 合併前非屬共同控制股權, 季別, 年度, 庫藏股票, 待註銷股本股數, 權益─具證券性質之虛擬通貨, 權益總額, 歸屬於母公司業主之權益合計, 母公司暨子公司所持有之母公司庫藏股股數, 每股參考淨值, 流動負債, 流動資產, 股本, 負債總額, 資本公積, 資產總額, 非控制權益, 非流動負債, 非流動資產, 預收股款（權益項下）之約當發行股數
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "1101", "公司名稱": "台泥", "流動資產": "166160771.00", "非流動資產": "400711568.00", "資產總額": "566872339.00", "流動負債": "82926585.00", "非流動負債": "207061775.00", "負債總額": "289988360.00", "股本": "77511817.00", "權益─具證券性質之虛擬通貨": "", "資本公積": "74860044.00", "保留盈餘": "65796242.00", "其他權益": "2935508.00", "庫藏股票": "-732459.00", "歸屬於母公司業主之權益合計": "220371152.00", "共同控制下前手權益": "", "合併前非屬共同控制股權": "", "非控制權益": "56512827.00", "權益總額": "276883979.00", "預收股款（權益項下）之約當發行股數": "", "待註銷股本
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap07_L_fh  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=13
+[GLOBAL] Fields(60): 不動產及設備－淨額, 使用權資產－淨額, 保留盈餘, 公司代號, 公司名稱, 共同控制下前手權益, 其他借款, 其他權益, 其他負債, 其他資產－淨額, 其他金融負債, 其他金融資產－淨額, 再保險合約資產－淨額, 出表日期, 受限制資產－淨額, 央行及同業融資, 央行及金融同業存款, 存放央行及拆借金融同業, 存款及匯款, 季別, 年度, 庫藏股票, 待出售資產－淨額, 待分配予業主之資產－淨額, 待註銷股本股數（單位：股）, 應付債券, 應付商業本票－淨額, 應付款項, 應收款項－淨額, 投資性不動產－淨額, 按攤銷後成本衡量之債務工具投資, 採用權益法之投資－淨額, 本期所得稅負債, 本期所得稅資產, 權益總計, 歸屬於母公司業主之權益, 母公司暨子公司所持有之母公司庫藏股股數（單位：股）, 每股參考淨值, 無形資產－淨額, 特別股負債, 現金及約當現金, 租賃負債, 股本, 與待出售資產直接相關之負債, 負債準備, 負債總計, 貼現及放款－淨額, 資本公積, 資產總計, 透過其他綜合損益按公允價值衡量之金融資產, 透過損益按公允價值衡量之金融負債, 透過損益按公允價值衡量之金融資產, 遞延所得稅負債, 遞延所得稅資產, 避險之金融負債, 避險之金融資產, 附買回票券及債券負債, 附賣回票券及債券投資, 非控制權益, 預收股款（權益項下）之約當發行股數（單位：股）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "2880", "公司名稱": "華南金", "現金及約當現金": "33299715.00", "存放央行及拆借金融同業": "231590137.00", "透過損益按公允價值衡量之金融資產": "164650401.00", "透過其他綜合損益按公允價值衡量之金融資產": "385952093.00", "按攤銷後成本衡量之債務工具投資": "844950369.00", "避險之金融資產": "", "附賣回票券及債券投資": "1749447.00", "應收款項－淨額": "82928539.00", "本期所得稅資產": "247665.00", "待出售資產－淨額": "", "待分配予業主之資產－淨額": "", "貼現及放款－淨額": "2348376007.00", "再保險合約資產－淨額": "6402214.00", "採用權益法之投資－淨額": "265949.00", "受限制資產－淨額": "", "其他金融資產－淨額": "14981441.00"
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap07_L_ins  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1
+[GLOBAL] Fields(52): 不動產及設備, 使用權資產, 保留盈餘, 保險負債, 公司代號, 公司名稱, 共同控制下前手權益, 其他權益, 其他負債, 其他資產, 其他金融負債, 具金融商品性質之保險契約準備, 再保險合約資產, 出表日期, 分離帳戶保險商品負債, 分離帳戶保險商品資產, 合併前非屬共同控制股權, 外匯價格變動準備, 季別, 年度, 庫藏股票, 待出售資產, 待分配予業主之資產（或處分群組）, 待註銷股本股數（單位：股）, 應付債券, 應付款項, 應收款項, 投資, 本期所得稅負債, 本期所得稅資產, 權益─具證券性質之虛擬通貨, 權益總計, 歸屬於母公司業主之權益合計, 母公司暨子公司所持有之母公司庫藏股股數（單位：股）, 每股參考淨值, 無形資產, 特別股負債, 現金及約當現金, 短期債務, 租賃負債, 股本, 與待出售資產直接相關之負債, 負債準備, 負債總計, 資本公積, 資產總計, 透過損益按公允價值衡量之金融負債, 遞延所得稅負債, 遞延所得稅資產, 避險之金融負債, 非控制權益, 預收股款（權益項下）之約當發行股數（單位：股）
+[GLOBAL] Sample: [{"出表日期": "1140814", "年度": "", "季別": "", "公司代號": "", "公司名稱": "", "現金及約當現金": "", "應收款項": "", "本期所得稅資產": "", "待出售資產": "", "待分配予業主之資產（或處分群組）": "", "投資": "", "再保險合約資產": "", "不動產及設備": "", "使用權資產": "", "無形資產": "", "遞延所得稅資產": "", "其他資產": "", "分離帳戶保險商品資產": "", "資產總計": "", "短期債務": "", "應付款項": "", "本期所得稅負債": "", "與待出售資產直接相關之負債": "", "透過損益按公允價值衡量之金融負債": "", "避險之金融負債": "", "應付債券": "", "特別股負債": "", "其他金融負債": "", "租賃負債": "", "保險負債": "", "具金融商品性質之保險契約準備": "", "外匯價格變動準備": "", "負債準備": "", "遞延所得稅負債": "", "其他負債": 
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap07_L_mim  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=4
+[GLOBAL] Fields(25): 保留盈餘, 公司代號, 公司名稱, 共同控制下前手權益, 其他權益, 出表日期, 季別, 年度, 庫藏股票, 待註銷股本股數（單位：股）, 權益總額, 權益－具證券性質之虛擬通貨, 歸屬於母公司業主之權益合計, 母公司暨子公司所持有之母公司庫藏股股數（單位：股）, 每股參考淨值, 流動負債, 流動資產, 股本, 負債總額, 資本公積, 資產總額, 非控制權益, 非流動負債, 非流動資產, 預收股款（權益項下）之約當發行股數（單位：股）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "1409", "公司名稱": "新纖", "流動資產": "141351056.00", "非流動資產": "66036318.00", "資產總額": "207387374.00", "流動負債": "131594617.00", "非流動負債": "27785594.00", "負債總額": "159380211.00", "股本": "16184093.00", "權益－具證券性質之虛擬通貨": "", "資本公積": "2165685.00", "保留盈餘": "14176355.00", "其他權益": "4504313.00", "庫藏股票": "-29834.00", "歸屬於母公司業主之權益合計": "37000612.00", "共同控制下前手權益": "", "非控制權益": "11006551.00", "權益總額": "48007163.00", "待註銷股本股數（單位：股）": "", "預收股款（權益項下）之約當發行股數（單位：股）": "0.00",
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap07_X_basi  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=34
+[GLOBAL] Fields(60): 不動產及設備－淨額, 使用權資產－淨額, 保留盈餘, 公司代號, 公司名稱, 共同控制下前手權益, 其他權益, 其他負債, 其他資產－淨額, 其他金融負債, 其他金融資產－淨額, 出表日期, 受限制資產－淨額, 合併前非屬共同控制股權, 央行及同業融資, 央行及銀行同業存款, 存放央行及拆借銀行同業, 存款及匯款, 季別, 年度, 庫藏股票, 待出售資產－淨額, 待分配予業主之資產－淨額, 待註銷股本股數（單位：股）, 應付公司債, 應付款項, 應付金融債券, 應收款項－淨額, 投資性不動產投資－淨額, 按攤銷後成本衡量之債務工具投資, 採用權益法之投資－淨額, 權益─具證券性質之虛擬通貨, 權益總額, 歸屬於母公司業主之權益合計, 母公司暨子公司所持有之母公司庫藏股股數（單位：股）, 每股參考淨值, 無形資產－淨額, 特別股負債, 現金及約當現金, 當期所得稅負債, 當期所得稅資產, 租賃負債, 股本, 與待出售資產直接相關之負債, 負債準備, 負債總額, 貼現及放款－淨額, 資本公積, 資產總額, 透過其他綜合損益按公允價值衡量之金融資產, 透過損益按公允價值衡量之金融負債, 透過損益按公允價值衡量之金融資產, 遞延所得稅負債, 遞延所得稅資產, 避險之衍生金融負債－淨額, 避險之衍生金融資產淨額, 附買回票券及債券負債, 附賣回票券及債券投資淨額, 非控制權益, 預收股款（權益項下）之約當發行股數（單位：股）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "2807", "公司名稱": "渣打銀行", "現金及約當現金": "12892416.00", "存放央行及拆借銀行同業": "151244337.00", "透過損益按公允價值衡量之金融資產": "90122434.00", "透過其他綜合損益按公允價值衡量之金融資產": "107733019.00", "按攤銷後成本衡量之債務工具投資": "14400462.00", "避險之衍生金融資產淨額": "530314.00", "附賣回票券及債券投資淨額": "37497086.00", "應收款項－淨額": "28518079.00", "當期所得稅資產": "242493.00", "待出售資產－淨額": "", "待分配予業主之資產－淨額": "", "貼現及放款－淨額": "315395297.00", "採用權益法之投資－淨額": "", "受限制資產－淨額": "", "其他金融資產－淨額": "11596250.00", "不動產及設備－淨額": "2755834
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap07_X_bd  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=28
+[GLOBAL] Fields(26): 保留盈餘（或累積虧損）, 公司代號, 公司名稱, 共同控制下前手權益, 其他權益, 出表日期, 合併前非屬共同控制股權, 季別, 年度, 庫藏股票, 待註銷股本股數（單位：股）, 權益總計, 權益－具證券性質之虛擬通貨, 歸屬於母公司業主權益合計, 母公司暨子公司持有之母公司庫藏股股數（單位：股）, 每股參考淨值, 流動負債, 流動資產, 股本, 負債總計, 資本公積, 資產總計, 非控制權益, 非流動負債, 非流動資產, 預收股款（權益項下）之約當發行股數（單位：股）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "000104", "公司名稱": "臺銀證券", "流動資產": "14377795.00", "非流動資產": "869269.00", "資產總計": "15247064.00", "流動負債": "9780511.00", "非流動負債": "458019.00", "負債總計": "10238530.00", "股本": "3000000.00", "權益－具證券性質之虛擬通貨": "", "資本公積": "0.00", "保留盈餘（或累積虧損）": "2025043.00", "其他權益": "-16509.00", "庫藏股票": "", "歸屬於母公司業主權益合計": "", "共同控制下前手權益": "", "合併前非屬共同控制股權": "", "非控制權益": "", "權益總計": "5008534.00", "待註銷股本股數（單位：股）": "", "預收股款（權益項下）之約當發行股數（單位：股）": "0.00", "母公司暨子公司持有之母公司庫藏股股數（
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap07_X_ci  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=214
+[GLOBAL] Fields(26): 保留盈餘, 公司代號, 公司名稱, 共同控制下前手權益, 其他權益, 出表日期, 合併前非屬共同控制股權, 季別, 年度, 庫藏股票, 待註銷股本股數（單位：股）, 權益─具證券性質之虛擬通貨, 權益總計, 歸屬於母公司業主之權益合計, 母公司暨子公司所持有之母公司庫藏股股數（單位：股）, 每股參考淨值, 流動負債, 流動資產, 股本, 負債總計, 資本公積, 資產總計, 非控制權益, 非流動負債, 非流動資產, 預收股款（權益項下）之約當發行股數（單位：股）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "1111", "公司名稱": "欣欣水泥", "流動資產": "715629.00", "非流動資產": "800251.00", "資產總計": "1515880.00", "流動負債": "182872.00", "非流動負債": "1928.00", "負債總計": "184800.00", "股本": "930331.00", "權益─具證券性質之虛擬通貨": "0.00", "資本公積": "0.00", "保留盈餘": "377471.00", "其他權益": "23278.00", "庫藏股票": "0.00", "歸屬於母公司業主之權益合計": "1331080.00", "共同控制下前手權益": "0.00", "合併前非屬共同控制股權": "", "非控制權益": "0.00", "權益總計": "1331080.00", "待註銷股本股數（單位：股）": "", "預收股款（權益項下）之約當發行股數（單位：股）": "0.00", "母公司暨子公司所持有之母
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap07_X_fh  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1
+[GLOBAL] Fields(60): 不動產及設備－淨額, 使用權資產－淨額, 保留盈餘, 公司代號, 公司名稱, 共同控制下前手權益, 其他借款, 其他權益, 其他負債, 其他資產－淨額, 其他金融負債, 其他金融資產－淨額, 再保險合約資產－淨額, 出表日期, 受限制資產－淨額, 央行及同業融資, 央行及金融同業存款, 存放央行及拆借金融同業, 存款及匯款, 季別, 年度, 庫藏股票, 待出售資產－淨額, 待註銷股本股數（單位：股）, 應付債券, 應付商業本票－淨額, 應付款項, 應收款項－淨額, 投資性不動產－淨額, 按攤銷後成本衡量之債務工具投資, 採用權益法之投資－淨額, 權益總額, 歸屬於母公司業主之權益, 母公司暨子公司所持有之母公司庫藏股股數（單位：股）, 每股參考淨值, 無形資產－淨額, 特別股負債, 現金及約當現金, 當期所得稅負債, 當期所得稅資產, 租賃負債, 空格, 股本, 與待出售資產直接相關之負債, 負債準備, 負債總額, 貼現及放款－淨額, 資本公積, 資產總額, 透過其他綜合損益按公允價值衡量之金融資產, 透過損益按公允價值衡量之金融負債, 透過損益按公允價值衡量之金融資產, 遞延所得稅負債, 遞延所得稅資產, 避險之衍生金融負債, 避險之衍生金融資產, 附買回票券及債券負債, 附賣回票券及債券投資, 非控制權益, 預收股款（權益項下）之約當發行股數（單位：股）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "5868", "公司名稱": "臺灣金控", "現金及約當現金": "103974863.00", "存放央行及拆借金融同業": "542047567.00", "透過損益按公允價值衡量之金融資產": "487450405.00", "透過其他綜合損益按公允價值衡量之金融資產": "1742722084.00", "按攤銷後成本衡量之債務工具投資": "583056228.00", "避險之衍生金融資產": "", "附賣回票券及債券投資": "278981.00", "應收款項－淨額": "72112238.00", "當期所得稅資產": "1117459.00", "待出售資產－淨額": "", "空格": "", "貼現及放款－淨額": "3389948417.00", "再保險合約資產－淨額": "39312.00", "採用權益法之投資－淨額": "54585880.00", "受限制資產－淨額": "", "其他金融資產－淨額": "24442345.00", "投資
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap07_X_ins  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=17
+[GLOBAL] Fields(53): 不動產及設備, 使用權資產, 保留盈餘, 保險負債, 公司代號, 公司名稱, 共同控制下前手權益, 其他權益, 其他負債, 其他資產, 其他金融負債, 具金融商品性質之保險契約準備, 再保險合約資產, 出表日期, 分離帳戶保險商品負債, 分離帳戶保險商品資產, 合併前非屬共同控制股權, 外匯價格變動準備, 季別, 年度, 庫藏股票, 待出售資產, 待分配予業主之資產（或處分群組）, 待註銷股本股數（單位：股）, 應付債券, 應付款項, 應收款項, 投資, 本期所得稅負債, 本期所得稅資產, 權益─具證券性質之虛擬通貨, 權益總計, 歸屬於母公司業主之權益合計, 母公司暨子公司所持有之母公司庫藏股股數（單位：股）, 每股參考淨值, 無形資產, 特別股負債, 現金及約當現金, 短期債務, 租賃負債, 股本, 與待出售資產直接相關之負債, 負債及權益總計, 負債準備, 負債總計, 資本公積, 資產總計, 透過損益按公允價值衡量之金融負債, 遞延所得稅負債, 遞延所得稅資產, 避險之衍生金融負債, 非控制權益, 預收股款（權益項下）之約當發行股數（單位：股）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "2823", "公司名稱": "凱基人壽", "現金及約當現金": "69344990.00", "應收款項": "20068380.00", "本期所得稅資產": "4405857.00", "待出售資產": "", "待分配予業主之資產（或處分群組）": "", "投資": "2138575367.00", "再保險合約資產": "897571.00", "不動產及設備": "10478753.00", "使用權資產": "4707148.00", "無形資產": "561917.00", "遞延所得稅資產": "11358935.00", "其他資產": "8011776.00", "分離帳戶保險商品資產": "116001516.00", "資產總計": "2384412210.00", "短期債務": "", "應付款項": "17385118.00", "本期所得稅負債": "590561.00", "與待出售資產直接相關之負債": "", "透過損益按公允價值衡量之
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap07_X_mim  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1
+[GLOBAL] Fields(25): 保留盈餘, 公司代號, 公司名稱, 共同控制下前手權益, 其他權益, 出表日期, 季別, 年度, 庫藏股票, 待註銷股本股數（單位：股）, 權益總額, 權益－具證券性質之虛擬通貨, 歸屬於母公司業主之權益合計, 母公司暨子公司所持有之母公司庫藏股股數（單位：股）, 每股參考淨值, 流動負債, 流動資產, 股本, 負債總計, 資本公積, 資產總計, 非控制權益, 非流動負債, 非流動資產, 預收股款（權益項下）之約當發行股數（單位：股）
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "", "季別": "", "公司代號": "", "公司名稱": "", "流動資產": "", "非流動資產": "", "資產總計": "", "流動負債": "", "非流動負債": "", "負債總計": "", "股本": "", "權益－具證券性質之虛擬通貨": "", "資本公積": "", "保留盈餘": "", "其他權益": "", "庫藏股票": "", "歸屬於母公司業主之權益合計": "", "共同控制下前手權益": "", "非控制權益": "", "權益總額": "", "待註銷股本股數（單位：股）": "", "預收股款（權益項下）之約當發行股數（單位：股）": "", "母公司暨子公司所持有之母公司庫藏股股數（單位：股）": "", "每股參考淨值": ""}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap08_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=30
+[GLOBAL] Fields(15): 全體監察人不足股數, 全體監察人保留運用決定權信託股數, 全體監察人應持有股數, 全體監察人本人實際持有股數, 全體監察人法人代表人分戶集保股數, 全體董事不足股數, 全體董事保留運用決定權信託股數, 全體董事應持有股數, 全體董事本人實際持有股數, 全體董事法人代表人分戶集保股數, 公司代號, 公司名稱, 出表日期, 已發行股份總額, 持股不足已通知其董監
+[GLOBAL] Sample: [{"出表日期": "1100427", "公司代號": "1232", "公司名稱": "大統益", "已發行股份總額": "159974915", "全體董事應持有股數": "9598494", "全體董事本人實際持有股數": "107898921", "全體董事法人代表人分戶集保股數": "0", "全體董事保留運用決定權信託股數": "0", "全體董事不足股數": "", "全體監察人應持有股數": "959849", "全體監察人本人實際持有股數": "59131", "全體監察人法人代表人分戶集保股數": "0", "全體監察人保留運用決定權信託股數": "0", "全體監察人不足股數": "900718", "持股不足已通知其董監": "O.K"}, {"出表日期": "1100427", "公司代號": "1418", "公司名稱": "東華", "已發行股份總額": "56834309", "全體董事應持有股數": "5683430", "全體董事本人實際持有股數": "25558311", "全體董事法人代表人分戶集保股數": "0", "全體董事保留運用決定權信
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap09_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=9
+[GLOBAL] Fields(3): 公司名稱, 出表日期, 百分比
+[GLOBAL] Sample: [{"出表日期": "1100427", "百分比": "90 以上", "公司名稱": "2020    美亞  95.66\r\n1432    大魯閣  92.29\r\n"}, {"出表日期": "1100427", "百分比": "80 以上", "公司名稱": "2025    千興  85.30\r\n2317    鴻海  82.99\r\n5608    四維航  81.45\r\n2206    三陽工業  80.85\r\n2545    皇翔  80.55\r\n"}, {"出表日期": "1100427", "百分比": "70 以上", "公司名稱": "8341    日友  78.47\r\n1805    寶徠  78.11\r\n2812    台中銀  76.53\r\n5519    隆大  75.60\r\n1314    中石化  75.30\r\n4994    傳奇  75.27\r\n2637    慧洋-KY  74.63\r\n1338    廣華-KY  74.35\r\n1312    國喬  70.10\r\n"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap10_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=14
+[GLOBAL] Fields(12): 出表日期, 連續不足逾1年以上, 連續不足達10個月, 連續不足達11個月, 連續不足達12個月, 連續不足達3個月, 連續不足達4個月, 連續不足達5個月, 連續不足達6個月, 連續不足達7個月, 連續不足達8個月, 連續不足達9個月
+[GLOBAL] Sample: [{"出表日期": "1100427", "連續不足達3個月": "2375", "連續不足達4個月": "2329", "連續不足達5個月": "", "連續不足達6個月": "", "連續不足達7個月": "5258", "連續不足達8個月": "2434", "連續不足達9個月": "", "連續不足達10個月": "1472", "連續不足達11個月": "3545", "連續不足達12個月": "1506", "連續不足逾1年以上": "1232"}, {"出表日期": "1100427", "連續不足達3個月": "4968", "連續不足達4個月": "3494", "連續不足達5個月": "", "連續不足達6個月": "", "連續不足達7個月": "", "連續不足達8個月": "", "連續不足達9個月": "", "連續不足達10個月": "", "連續不足達11個月": "4956", "連續不足達12個月": "", "連續不足逾1年以上": "1418"}, {"出表日期": "1100427", "連續不足達3個月": "6230", "連續不足達4個月
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap11_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=26995
+[GLOBAL] Fields(13): 內部人關係人目前持股合計, 內部人關係人設質比例, 內部人關係人設質股數, 公司代號, 公司名稱, 出表日期, 姓名, 目前持股, 職稱, 設質股數, 設質股數佔持股比例, 資料年月, 選任時持股 
+[GLOBAL] Sample: [{"出表日期": "1141020", "資料年月": "11409", "公司代號": "1101", "公司名稱": "台泥", "職稱": "董事長本人", "姓名": "嘉利實業股份有限公司", "選任時持股 ": "3335997", "目前持股": "3835997", "設質股數": "0", "設質股數佔持股比例": "0.00%", "內部人關係人目前持股合計": "0", "內部人關係人設質股數": "0", "內部人關係人設質比例": "0.00%"}, {"出表日期": "1141020", "資料年月": "11409", "公司代號": "1101", "公司名稱": "台泥", "職稱": "董事長之法人代表人", "姓名": "張安平", "選任時持股 ": "0", "目前持股": "4057951", "設質股數": "0", "設質股數佔持股比例": "0.00%", "內部人關係人目前持股合計": "5289808", "內部人關係人設質股數": "0", "內部人關係人設質比例": "0.00%"}, {"出表日期": "1141020", 
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap11_P  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=6651
+[GLOBAL] Fields(13): 內部人關係人目前持股合計, 內部人關係人設質比例, 內部人關係人設質股數, 公司代號, 公司名稱, 出表日期, 姓名, 目前持股, 職稱, 設質股數, 設質股數佔持股比例, 資料年月, 選任時持股
+[GLOBAL] Sample: [{"出表日期": "1141020", "資料年月": "11409", "公司代號": "1111", "公司名稱": "欣欣水泥", "職稱": "董事長本人", "姓名": "國軍退除役官兵輔導委員會", "選任時持股": "37251235", "目前持股": "37251235", "設質股數": "0", "設質股數佔持股比例": "0.00%", "內部人關係人目前持股合計": "0", "內部人關係人設質股數": "0", "內部人關係人設質比例": "0.00%"}, {"出表日期": "1141020", "資料年月": "11409", "公司代號": "1111", "公司名稱": "欣欣水泥", "職稱": "董事長之法人代表人", "姓名": "郭先琛", "選任時持股": "0", "目前持股": "0", "設質股數": "0", "設質股數佔持股比例": "0.00%", "內部人關係人目前持股合計": "0", "內部人關係人設質股數": "0", "內部人關係人設質比例": "0.00%"}, {"出表日期": "1141020", "資料年月"
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap12_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1
+[GLOBAL] Fields(16): 公司代號, 公司名稱, 出表日期, 受讓人, 姓名, 有效轉讓期間, 每日於盤中交易最大得轉讓股數, 申報人身分, 目前持有股數-保留運用決定權信託股數, 目前持有股數-自有持股, 預定轉讓後持股-保留運用決定權信託股數, 預定轉讓後持股-自有持股, 預定轉讓方式及股數-轉讓方式, 預定轉讓方式及股數-轉讓股數, 預定轉讓總股數-保留運用決定權信託股數, 預定轉讓總股數-自有持股
+[GLOBAL] Sample: [{"出表日期": "1141029", "公司代號": "6691", "公司名稱": "洋基工程", "申報人身分": "經理人本人", "姓名": "蘇啟章", "預定轉讓方式及股數-轉讓方式": "贈與", "預定轉讓方式及股數-轉讓股數": "", "每日於盤中交易最大得轉讓股數": "", "受讓人": "蘇啟仁", "目前持有股數-自有持股": "833253", "目前持有股數-保留運用決定權信託股數": "0", "預定轉讓總股數-自有持股": "63000", "預定轉讓總股數-保留運用決定權信託股數": "0", "預定轉讓後持股-自有持股": "770253", "預定轉讓後持股-保留運用決定權信託股數": "0", "有效轉讓期間": "1141029~1141031"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap13_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1
+[GLOBAL] Fields(12): 公司代號, 公司名稱, 出表日期, 原申報預定轉讓股數-保留運用決定權信託股數, 原申報預定轉讓股數-自有持股, 姓名, 未轉讓理由, 未轉讓股數-保留運用決定權信託股數, 未轉讓股數-自有持股, 申報人身分, 目前持股-保留運用決定權信託股數, 目前持股-自有持股
+[GLOBAL] Sample: [{"出表日期": "1141029", "公司代號": "6671", "公司名稱": "三能-KY", "申報人身分": "董事利用他人名義持有者", "姓名": "Beauty Joy Holdings Limited", "未轉讓股數-自有持股": "377000", "未轉讓股數-保留運用決定權信託股數": "0", "目前持股-自有持股": "2892400", "目前持股-保留運用決定權信託股數": "0", "原申報預定轉讓股數-自有持股": "499000", "原申報預定轉讓股數-保留運用決定權信託股數": "0", "未轉讓理由": "股價不理想"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap14_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1054
+[GLOBAL] Fields(12): 公司代號, 公司名稱, 出表日期, 基本每股盈餘(元), 季別, 年度, 普通股每股面額, 營業利益, 營業外收入及支出, 營業收入, 產業別, 稅後淨利
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "1101", "公司名稱": "臺灣水泥股份有限公司", "產業別": "水泥工業", "基本每股盈餘(元)": "0.07", "普通股每股面額": "新台幣                 10.0000元", "營業收入": "70310678.00", "營業利益": "3415898.00", "營業外收入及支出": "-344331.00", "稅後淨利": "1498464.00"}, {"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "1102", "公司名稱": "亞洲水泥股份有限公司", "產業別": "水泥工業", "基本每股盈餘(元)": "1.28", "普通股每股面額": "新台幣                 10.0000元", "營業收入": "35260444.00", "營業利益": "4192682.00", "營業外收入及支出": "1497091.00", "稅後淨利": "448
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap15_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=5
+[GLOBAL] Fields(9): 公司代號, 公司名稱, 出表日期, 季別, 年度, 截至該季經會計師查核或核閱數, 截至該季綜合損益預測數, 涵蓋期間, 財測序號
+[GLOBAL] Sample: [{"出表日期": "1141029", "年度": "114", "季別": "2", "公司代號": "2412", "公司名稱": "中華電", "財測序號": "0", "涵蓋期間": "一、二、三、四", "截至該季經會計師查核或核閱數": "20571526.00", "截至該季綜合損益預測數": "9156048~9375385"}, {"出表日期": "1141029", "年度": "114", "季別": "2", "公司代號": "2454", "公司名稱": "聯發科", "財測序號": "0", "涵蓋期間": "二", "截至該季經會計師查核或核閱數": "18216895.00", "截至該季綜合損益預測數": "10345904~17980073"}, {"出表日期": "1141029", "年度": "114", "季別": "2", "公司代號": "3036", "公司名稱": "文曄", "財測序號": "0", "涵蓋期間": "二", "截至該季經會計師查核或核閱數": "-17414267.00", "截至該季綜合損益預測數": "-26
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap16_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=2
+[GLOBAL] Fields(11): 公司代號, 公司名稱, 出表日期, 季別, 年度, 截至當季稅前(綜合)損益預測數, 截至當季經會計師查核或核閱數, 涵蓋期間, 當季稅前(綜合)損益預測數, 當季經會計師查核或核閱數, 財測序號
+[GLOBAL] Sample: [{"出表日期": "1141029", "年度": "114", "季別": "2", "公司代號": "2454", "公司名稱": "聯發科", "財測序號": "0", "涵蓋期間": "二", "當季經會計師查核或核閱數": "-12239911", "截至當季經會計師查核或核閱數": "18216895.00", "當季稅前(綜合)損益預測數": "10345904~17980073", "截至當季稅前(綜合)損益預測數": "40802710~48436879"}, {"出表日期": "1141029", "年度": "114", "季別": "2", "公司代號": "3702", "公司名稱": "大聯大", "財測序號": "0", "涵蓋期間": "二", "當季經會計師查核或核閱數": "-13051535", "截至當季經會計師查核或核閱數": "-10173119.00", "當季稅前(綜合)損益預測數": "-2493000~-2251000", "截至當季稅前(綜合)損益預測數": "385416~627416"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap17_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1024
+[GLOBAL] Fields(10): 公司代號, 公司名稱, 出表日期, 季別, 年度, 毛利率(%)(營業毛利)/(營業收入), 營業利益率(%)(營業利益)/(營業收入), 營業收入(百萬元), 稅前純益率(%)(稅前純益)/(營業收入), 稅後純益率(%)(稅後純益)/(營業收入)
+[GLOBAL] Sample: [{"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "1101", "公司名稱": "台泥", "營業收入(百萬元)": "70310.68", "毛利率(%)(營業毛利)/(營業收入)": "15.99", "營業利益率(%)(營業利益)/(營業收入)": "4.86", "稅前純益率(%)(稅前純益)/(營業收入)": "4.37", "稅後純益率(%)(稅後純益)/(營業收入)": "2.13"}, {"出表日期": "1141030", "年度": "114", "季別": "2", "公司代號": "1102", "公司名稱": "亞泥", "營業收入(百萬元)": "35260.44", "毛利率(%)(營業毛利)/(營業收入)": "16.29", "營業利益率(%)(營業利益)/(營業收入)": "11.89", "稅前純益率(%)(稅前純益)/(營業收入)": "16.14", "稅後純益率(%)(稅後純益)/(營業收入)": "12.73"}, {"出表日期": "1141030", "年度": "114", "
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap18  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=66
+[GLOBAL] Fields(68): 交割專戶帳號, 交割金融機構, 代辦交割證券商(證券IB)代號, 備註, 傳真, 出表日期, 券商(證券IB)簡稱, 區域代碼, 實收資本額（仟元）, 指撥營運金（仟元）, 業務種類, 權證履約專戶帳號, 營利事業統一編號, 營業保證金保管銀行, 營業廳, 營業處所－承, 營業處所－承代表號, 營業處所－經, 營業處所－經代表號, 營業處所－自, 營業處所－自代表號, 營業部經理, 營業項目1, 營業項目10, 營業項目11, 營業項目12, 營業項目13, 營業項目14, 營業項目15, 營業項目16, 營業項目17, 營業項目18, 營業項目19, 營業項目2, 營業項目20, 營業項目21, 營業項目22, 營業項目23, 營業項目24, 營業項目25, 營業項目26, 營業項目27, 營業項目28, 營業項目29, 營業項目3, 營業項目30, 營業項目31, 營業項目4, 營業項目5, 營業項目6, 營業項目7, 營業項目8, 營業項目9, 登記資本額（仟元）, 發行狀況, 總經理, 股務代理商地址, 融資融券開辦日期, 行政部門地址, 設立日期, 證券代號, 變更日期, 負責人, 財務部經理, 違約專戶, 錯帳專戶帳號, 開業日期, 電話
+[GLOBAL] Sample: [{"出表日期": "1141001", "證券代號": "1020", "券商(證券IB)簡稱": "合庫", "登記資本額（仟元）": "3000000", "實收資本額（仟元）": "5206132", "指撥營運金（仟元）": "0", "營利事業統一編號": "53021481", "變更日期": "1140210", "區域代碼": "2　台北市", "融資融券開辦日期": "1001202", "設立日期": "1001202", "開業日期": "1001202", "電話": "02-27528000", "傳真": "02-27526060", "交割金融機構": "合作金庫商業銀行東台北分行", "交割專戶帳號": "0796717078399", "違約專戶": "1030--630106", "錯帳專戶帳號": "15155", "權證履約專戶帳號": "0796717080610", "代辦交割證券商(證券IB)代號": "1030土銀1110台灣企銀", "營業保證金保管銀行": "華南銀行信託部", "發行狀況": "", "業務種類": "經紀、自營、
+[CODES] code_key='證券代號'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap19  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1
+[GLOBAL] Fields(20): 公司總成交筆數, 公司總成交金額, 出表日期, 占公司成交比率(筆數), 占公司成交比率(金額), 占市場成交比率(筆數), 占市場成交比率(金額), 委託筆數, 委託金額, 市場成交總筆數(買賣合計), 市場成交總金額(買賣合計), 平均每筆成交金額, 成交月份, 成交筆數, 成交金額, 本月交易人數, 本月交易戶數, 本月新增戶數, 本月註銷戶數, 累計開戶數
+[GLOBAL] Sample: [{"出表日期": "1141015", "成交月份": "11409", "本月新增戶數": "128068", "本月註銷戶數": "11293", "累計開戶數": "18023909", "本月交易戶數": "3815655", "本月交易人數": "3797591", "委託筆數": "111556561", "委託金額": "21106615996", "成交筆數": "116537330", "成交金額": "16066699938", "平均每筆成交金額": "138", "公司總成交筆數": "134404769", "公司總成交金額": "19318826057", "占公司成交比率(筆數)": "86.71%", "占公司成交比率(金額)": "83.17%", "市場成交總筆數(買賣合計)": "143938090", "市場成交總金額(買賣合計)": "20376704785", "占市場成交比率(筆數)": "80.96%", "占市場成交比率(金額)": "78.85%"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap20  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=47645
+[GLOBAL] Fields(8): 借方餘額, 出表日期, 券商代號, 券商名稱, 會計科目名稱, 本月借方總額, 本月貸方總額, 科目
+[GLOBAL] Sample: [{"出表日期": "1141025", "券商代號": "0200", "券商名稱": "遠智證券", "科目": "110000", "會計科目名稱": "流動資產", "本月借方總額": "127954683", "本月貸方總額": "123750738", "借方餘額": "289422295"}, {"出表日期": "1141025", "券商代號": "0200", "券商名稱": "遠智證券", "科目": "111100", "會計科目名稱": "現金及約當現金", "本月借方總額": "94380110", "本月貸方總額": "95631347", "借方餘額": "255651198"}, {"出表日期": "1141025", "券商代號": "0200", "券商名稱": "遠智證券", "科目": "111130", "會計科目名稱": "銀行存款", "本月借方總額": "94380110", "本月貸方總額": "95631347", "借方餘額": "255651198"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap21  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=19695
+[GLOBAL] Fields(7): 出表日期, 券商代號, 券商名稱, 會計科目名稱, 本月金額, 科目, 累進金額
+[GLOBAL] Sample: [{"出表日期": "1141025", "券商代號": "0200", "券商名稱": "遠智證券", "科目": "401000", "會計科目名稱": "經紀手續費收入", "本月金額": "14969671", "累進金額": "113558301"}, {"出表日期": "1141025", "券商代號": "0200", "券商名稱": "遠智證券", "科目": "401080", "會計科目名稱": "受託買賣手續費收入－其他", "本月金額": "14969671", "累進金額": "113558301"}, {"出表日期": "1141025", "券商代號": "0200", "券商名稱": "遠智證券", "科目": "428000", "會計科目名稱": "其他營業收益", "本月金額": "320394", "累進金額": "2909130"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap22_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=56
+[GLOBAL] Fields(7): 公司名稱, 出表日期, 發函日期, 股票代號, 裁處情形, 違反法規, 違規事由
+[GLOBAL] Sample: [{"出表日期": "1141029", "發函日期": "1141007", "股票代號": "6962", "公司名稱": "奕力-KY", "違規事由": "內部人事前申報持股異常案件", "違反法規": "證券交易法第22條之2", "裁處情形": "處陳○○罰鍰8萬元"}, {"出表日期": "1141029", "發函日期": "1141002", "股票代號": "6949", "公司名稱": "沛爾生醫-創", "違規事由": "內部人事前申報持股異常案件", "違反法規": "證券交易法第22條之2", "裁處情形": "處林○○罰鍰8萬元"}, {"出表日期": "1141029", "發函日期": "1140910", "股票代號": "6005", "公司名稱": "群益證", "違規事由": "本會檢查局於114年2月20日至3月11日對受處分人進行資通安全專案檢查，發現受處分人辦理資訊治理作業、網路安全管理作業、應用程式安全及變更管理及辦理個人資料保護作業等缺失，顯示受處分人未落實執行內部控制制度與查核機制，核已違反證券商管理規則第2條第2項之規定。", "
+[CODES] code_key='股票代號'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap23_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=69
+[GLOBAL] Fields(8): 公司名稱, 出表日期, 發函日期, 股票代號, 裁罰金額(萬), 違反資訊申報作業辦法條款, 違反重大訊息之查證暨公開處理程序條款, 違規事由
+[GLOBAL] Sample: [{"出表日期": "1141029", "發函日期": "1141023", "股票代號": "6431", "公司名稱": "光麗-KY", "違規事由": "光麗生技控股股份有限公司（光麗-KY，證券代號:6431）114年6月9日新增資金貸與子公司上海儀玳\r\n化妝品有限公司乙案，經查符合臺灣證券交易所「對有價證券上市公司重大訊息之查證暨公開處理程\r\n序」第4條第1項第23款情事，惟光麗生技控股股份有限公司延遲輸入重大訊息，已違反前述處理程序\r\n之規定，故證交所處以新臺幣3萬元之違約金。", "違反資訊申報作業辦法條款": "", "違反重大訊息之查證暨公開處理程序條款": "4條1項23款\n", "裁罰金額(萬)": "3.0"}, {"出表日期": "1141029", "發函日期": "1141009", "股票代號": "1583", "公司名稱": "程泰", "違規事由": "程泰機械股份有限公司(代號：1583，下稱程泰機械公司)董事因轉讓持股超過選任當時持股之二分之\r\n一，依法其董事職務當然解任乙案，經查符合證交所「對有價證券上市公司重大訊息之查
+[CODES] code_key='股票代號'
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap24_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=16
+[GLOBAL] Fields(5): 公司代號, 公司名稱, 出表日期, 經營權異動日期, 經營權異動說明
+[GLOBAL] Sample: [{"出表日期": "1141029", "公司代號": "8114", "公司名稱": "振樺電", "經營權異動日期": "1140730", "經營權異動說明": "114年7月30日股東臨時會全面改選董事，新選任9席董事中有4席為代表人代表宏碁股份有限公司控股之雲川興業股份有限公司(下稱雲川興業)當選，且董事長由代表雲川興業之董事郭劍成擔任。經考量雲川興業持有全數已發行特別股，佔流通在外之表決權約29.18%並為單一最大股東，核有經營權異動之情事。"}, {"出表日期": "1141029", "公司代號": "3041", "公司名稱": "揚智", "經營權異動日期": "1140630", "經營權異動說明": "改選後七席董事及董事長皆已發生變動，原經營階層喪失控制力"}, {"出表日期": "1141029", "公司代號": "3593", "公司名稱": "力銘", "經營權異動日期": "1140627", "經營權異動說明": "該公司114年6月27日股東常會改選結果，原經營階層喪失控制權，而有經營權異動情事。"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap25_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1
+[GLOBAL] Fields(7): 公司代號, 公司名稱, 出表日期, 季別, 年度, 序號, 營業範圍重大變更說明
+[GLOBAL] Sample: [{"出表日期": "1141029", "序號": "1", "年度": "114", "季別": "1", "公司代號": "3308", "公司名稱": "聯德", "營業範圍重大變更說明": "●新增主要經營業務（係指該等業務產生之營業收入占上市公司營業收入百分之二十以上）且本期來自該等增加業務之營業收入合計占本期營業收入達百分之五十以上\n●將上一會計年度占營業收入達百分之五十以上之經營業務變更，導致本期來自該業務之營業收入占本期營業收入低於百分之二十。\n"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap26_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=0
+[GLOBAL] Fields(0): 
+[GLOBAL] Sample: []
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap27_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=0
+[GLOBAL] Fields(0): 
+[GLOBAL] Sample: []
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap29_A_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=950
+[GLOBAL] Fields(20): 公司代號, 公司名稱, 出表日期, 加計兼任員工酬金-合計, 實收資本額(仟元), 平均每位董事酬金-加計兼任員工酬金, 平均每位董事酬金-董事酬金, 每股盈餘, 產業類別, 稅後損益與董監酬金變動之關聯性與合理性說明, 稅後純益, 股東權益報酬率(%), 董事酬金-今年支付, 董事酬金-前年支付, 董事酬金-合計, 董事酬金加計兼任員工酬金-今年支付, 董事酬金加計兼任員工酬金-前年支付, 酬金總額占稅後損益百分比(%)-加計兼任員工酬金, 酬金總額占稅後損益百分比(%)-董事酬金, 領取來自子公司以外轉投資事業或母公司酬金
+[GLOBAL] Sample: [{"出表日期": "1140425", "產業類別": "水泥工業", "公司代號": "1101", "公司名稱": "台泥", "董事酬金-前年支付": "30438469", "董事酬金-今年支付": "123167600", "董事酬金-合計": "153606069", "董事酬金加計兼任員工酬金-前年支付": "77047837", "董事酬金加計兼任員工酬金-今年支付": "129,557,612", "加計兼任員工酬金-合計": "206,605,449", "酬金總額占稅後損益百分比(%)-董事酬金": "+1.36", "酬金總額占稅後損益百分比(%)-加計兼任員工酬金": "+1.83", "平均每位董事酬金-董事酬金": "10,413,971", "平均每位董事酬金-加計兼任員工酬金": "14,007,149", "領取來自子公司以外轉投資事業或母公司酬金": "0", "稅後純益": "+11,259,317", "每股盈餘": "1.45", "股東權益報酬率(%)": "5.56", "實收資本額(仟元)": "77,511,817", "稅後損益與
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap29_B_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=0
+[GLOBAL] Fields(0): 
+[GLOBAL] Sample: []
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap29_C_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=981
+[GLOBAL] Fields(20): 公司代號, 公司名稱, 出表日期, 加計兼任員工酬金-合計, 實收資本額(仟元), 平均每位董事酬金-加計兼任員工酬金, 平均每位董事酬金-董事酬金, 每股盈餘, 產業類別, 稅後損益與董監酬金變動之關聯性與合理性說明, 稅後純益, 股東權益報酬率(%), 董事酬金-今年支付, 董事酬金-前年支付, 董事酬金-合計, 董事酬金加計兼任員工酬金-今年支付, 董事酬金加計兼任員工酬金-前年支付, 酬金總額占稅後損益百分比(%)-加計兼任員工酬金, 酬金總額占稅後損益百分比(%)-董事酬金, 領取來自子公司以外轉投資事業或母公司酬金
+[GLOBAL] Sample: [{"出表日期": "1140425", "產業類別": "水泥工業", "公司代號": "1101", "公司名稱": "台泥", "董事酬金-前年支付": "33280919", "董事酬金-今年支付": "123167600", "董事酬金-合計": "156448519", "董事酬金加計兼任員工酬金-前年支付": "79890287", "董事酬金加計兼任員工酬金-今年支付": "129,557,612", "加計兼任員工酬金-合計": "209,447,899", "酬金總額占稅後損益百分比(%)-董事酬金": "+1.38", "酬金總額占稅後損益百分比(%)-加計兼任員工酬金": "+1.86", "平均每位董事酬金-董事酬金": "10,606,679", "平均每位董事酬金-加計兼任員工酬金": "14,199,858", "領取來自子公司以外轉投資事業或母公司酬金": "5,452,000", "稅後純益": "+11,259,317", "每股盈餘": "1.45", "股東權益報酬率(%)": "5.56", "實收資本額(仟元)": "77,511,817"
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap29_D_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=0
+[GLOBAL] Fields(0): 
+[GLOBAL] Sample: []
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap30_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=13776
+[GLOBAL] Fields(12): 主要現職, 主要經歷, 備註, 公司代號, 公司名稱, 其他公司職稱, 出表日期, 姓名, 就任日期, 序號, 目前兼任其他公司名稱, 職稱
+[GLOBAL] Sample: [{"出表日期": "1141029", "序號": "1", "公司代號": "1101", "公司名稱": "台泥", "職稱": "法人董事代表人", "姓名": "王伯元", "就任日期": "1130521", "主要現職": "", "主要經歷": "", "目前兼任其他公司名稱": "", "其他公司職稱": "", "備註": ""}, {"出表日期": "1141029", "序號": "2", "公司代號": "1101", "公司名稱": "台泥", "職稱": "法人董事代表人", "姓名": "駱錦明", "就任日期": "1130521", "主要現職": "", "主要經歷": "", "目前兼任其他公司名稱": "", "其他公司職稱": "", "備註": ""}, {"出表日期": "1141029", "序號": "3", "公司代號": "1101", "公司名稱": "台泥", "職稱": "法人董事代表人", "姓名": "張安平", "就任日期": "1130521", "主要現職": "", "主要經歷": "", "目前兼任其他公司名稱
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap31_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1054
+[GLOBAL] Fields(6): 公司代號, 公司名稱, 出具本次財務報告審查報告書之監察人姓名, 出表日期, 是否設置審計委員會, 監察人實際在任席次
+[GLOBAL] Sample: [{"出表日期": "1141029", "公司代號": "1101", "公司名稱": "台泥", "是否設置審計委員會": "是", "出具本次財務報告審查報告書之監察人姓名": "註", "監察人實際在任席次": "註"}, {"出表日期": "1141029", "公司代號": "1102", "公司名稱": "亞泥", "是否設置審計委員會": "是", "出具本次財務報告審查報告書之監察人姓名": "註", "監察人實際在任席次": "註"}, {"出表日期": "1141029", "公司代號": "1103", "公司名稱": "嘉泥", "是否設置審計委員會": "是", "出具本次財務報告審查報告書之監察人姓名": "註", "監察人實際在任席次": "註"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap32_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=10688
+[GLOBAL] Fields(4): 公司代號, 公司名稱, 公司治理之相關規程規則, 出表日期
+[GLOBAL] Sample: [{"出表日期": "1141029", "公司代號": "1101", "公司名稱": "台泥", "公司治理之相關規程規則": "公司治理實務守則"}, {"出表日期": "1141029", "公司代號": "1101", "公司名稱": "台泥", "公司治理之相關規程規則": "公司股東會議事規則"}, {"出表日期": "1141029", "公司代號": "1101", "公司名稱": "台泥", "公司治理之相關規程規則": "公司董事會議事規範"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap33_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1065
+[GLOBAL] Fields(6): 公司代號, 公司名稱, 出表日期, 總經理, 董事長, 董事長是否兼任總經理
+[GLOBAL] Sample: [{"出表日期": "1141029", "公司代號": "1101", "公司名稱": "台泥", "董事長": "張安平", "總經理": "程耀輝", "董事長是否兼任總經理": "未兼任"}, {"出表日期": "1141029", "公司代號": "1102", "公司名稱": "亞泥", "董事長": "徐旭東", "總經理": "李坤炎", "董事長是否兼任總經理": "未兼任"}, {"出表日期": "1141029", "公司代號": "1103", "公司名稱": "嘉泥", "董事長": "張剛綸", "總經理": "王立心", "董事長是否兼任總經理": "未兼任"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap34_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=3958
+[GLOBAL] Fields(13): 候選人姓名, 候選人類別, 公司代號, 公司名稱, 出表日期, 採候選人提名制選任董監事相關公告-提名受理期間, 提名受理處所, 是否採候選人提名制選任董監事, 是否當選, 是否選任董監事, 股東常(臨時)會日期-常或臨時, 股東常(臨時)會日期-日期, 董監事選任方式
+[GLOBAL] Sample: [{"出表日期": "1141029", "公司代號": "1101", "公司名稱": "台泥", "股東常(臨時)會日期-常或臨時": "常會", "股東常(臨時)會日期-日期": "1140527", "是否選任董監事": "是", "董監事選任方式": "累積投票制", "是否採候選人提名制選任董監事": "是", "採候選人提名制選任董監事相關公告-提名受理期間": "1140314~1140324", "提名受理處所": "臺灣水泥股份有限公司董事會秘書室(地址:臺北市中山區中山北路二段113號)，電話：02-25317099 分機20206", "候選人類別": "獨立董事", "候選人姓名": "詹滿容", "是否當選": "是"}, {"出表日期": "1141029", "公司代號": "1102", "公司名稱": "亞泥", "股東常(臨時)會日期-常或臨時": "常會", "股東常(臨時)會日期-日期": "1140528", "是否選任董監事": "否", "董監事選任方式": "累積投票制", "是否採候選人提名制選任董監事": "", "採候選人提名制選
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap35_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=408
+[GLOBAL] Fields(7): 公司代號, 公司名稱, 出表日期, 召開股東會日期, 提案內容, 提案受理處所, 股東依公司法第172條之1行使提案權-提案受理期間
+[GLOBAL] Sample: [{"出表日期": "1141029", "公司代號": "1101", "公司名稱": "台泥", "召開股東會日期": "1140527", "股東依公司法第172條之1行使提案權-提案受理期間": "1140314~1140324", "提案受理處所": "臺灣水泥股份有限公司董事會秘書室(地址：臺北市中山區中山北路二段113號 電話:02-25317099分機20206)", "提案內容": ""}, {"出表日期": "1141029", "公司代號": "1102", "公司名稱": "亞泥", "召開股東會日期": "1140528", "股東依公司法第172條之1行使提案權-提案受理期間": "1140321~1140401", "提案受理處所": "亞東證券股份有限公司股務代理部(新北市板橋區新站路16號13樓)", "提案內容": ""}, {"出表日期": "1141029", "公司代號": "1103", "公司名稱": "嘉泥", "召開股東會日期": "1140516", "股東依公司法第172條之1行使提案權-提案受理期間": "1140228~1140
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap36_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=64111
+[GLOBAL] Fields(8): 出表日期, 名稱, 標的代號, 標的名稱, 權證代號, 申請發行日期, 發行人代號, 發行人名稱
+[GLOBAL] Sample: [{"出表日期": "1140106", "發行人代號": "1570", "發行人名稱": "法商法國興業銀行股份有限公司", "權證代號": "054103", "名稱": "臺股指法興44購05", "標的代號": "IX0001", "標的名稱": "臺灣證券交易所發行量加權股價指數", "申請發行日期": "1131014"}, {"出表日期": "1140106", "發行人代號": "1570", "發行人名稱": "法商法國興業銀行股份有限公司", "權證代號": "054104", "名稱": "臺股指法興44購06", "標的代號": "IX0001", "標的名稱": "臺灣證券交易所發行量加權股價指數", "申請發行日期": "1131014"}, {"出表日期": "1140106", "發行人代號": "1570", "發行人名稱": "法商法國興業銀行股份有限公司", "權證代號": "04943P", "名稱": "臺股指法興44售07", "標的代號": "IX0001", "標的名稱": "臺灣證券交易所發行量加權股價指數", "申請發行日期": "
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap37_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=24781
+[GLOBAL] Fields(20): 備註, 出表日期, 原始上限價格(元)/上限指數, 原始下限價格(元)/下限指數, 原始履約價格(元)/履約指數, 履約截止日, 履約開始日, 最後交易日, 最新上限價格(元)/上限指數, 最新下限價格(元)/下限指數, 最新履約價格(元)/履約指數, 最新標的履約配發數量(每仟單位權證), 標的證券/指數, 權證代號, 權證簡稱, 權證類型, 流動量提供者報價方式, 發行單位數量(仟單位), 結算方式(詳附註編號說明), 類別
+[GLOBAL] Sample: [{"出表日期": "1111208", "權證代號": "030001", "權證簡稱": "華新凱基29購02", "權證類型": "認購", "類別": "一般型", "流動量提供者報價方式": "主動報價", "履約開始日": "1111122", "最後交易日": "1120919", "履約截止日": "1120921", "發行單位數量(仟單位)": "5000", "結算方式(詳附註編號說明)": "5", "標的證券/指數": "華新", "最新標的履約配發數量(每仟單位權證)": "450.00", "原始履約價格(元)/履約指數": "66.0000", "原始上限價格(元)/上限指數": "0.0000", "原始下限價格(元)/下限指數": "0.0000", "最新履約價格(元)/履約指數": "66.0000", "最新上限價格(元)/上限指數": "0.0000", "最新下限價格(元)/下限指數": "0.0000", "備註": ""}, {"出表日期": "1111208", "權證代號": "030002", "權證簡稱": "聯發科凱基25購1
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap38_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1096
+[GLOBAL] Fields(20): 停止過戶起訖日期-訖, 停止過戶起訖日期-起, 公司代號, 公司名稱, 公告日期, 公告時間, 出表日期, 員工紅利-現金紅利(元), 員工紅利-股票紅利(股), 擬現金增資金額(元), 特別股股利(元/股), 現金增資認購率(%), 種類, 股東常(臨時)會日期-常或臨時, 股東常(臨時)會日期-日期, 董監酬勞(元), 預擬配發現金(股利)(元/股)-法定盈餘公積、資本公積, 預擬配發現金(股利)(元/股)-盈餘, 預擬配股(元/股)-法定盈餘公積、資本公積, 預擬配股(元/股)-盈餘
+[GLOBAL] Sample: [{"出表日期": "1141029", "公司代號": "1101", "公司名稱": "台泥", "股東常(臨時)會日期-常或臨時": "常會", "股東常(臨時)會日期-日期": "1140527", "停止過戶起訖日期-起": "1140329", "停止過戶起訖日期-訖": "1140527", "預擬配發現金(股利)(元/股)-盈餘": "", "預擬配發現金(股利)(元/股)-法定盈餘公積、資本公積": "", "預擬配股(元/股)-盈餘": "", "預擬配股(元/股)-法定盈餘公積、資本公積": "", "擬現金增資金額(元)": "", "現金增資認購率(%)": "", "員工紅利-現金紅利(元)": "0", "員工紅利-股票紅利(股)": "0", "特別股股利(元/股)": "", "董監酬勞(元)": "0", "公告日期": "1140409", "公告時間": "92655", "種類": ""}, {"出表日期": "1141029", "公司代號": "1102", "公司名稱": "亞泥", "股東常(臨時)會日期-常或臨時": "常會", "股
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap41_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1065
+[GLOBAL] Fields(12): 公司代號, 公司名稱, 公司地址, 出表日期, 是否採電子投票, 是否改選董監, 聯絡電話, 股務單位, 股務單位電話, 股東常(臨時)會, 開會地點, 開會日期
+[GLOBAL] Sample: [{"出表日期": "1131229", "公司代號": "1101", "公司名稱": "台泥", "公司地址": "台北市中山北路2段113號", "股東常(臨時)會": "常會", "開會日期": "1130521", "開會地點": "臺北市中山區中山北路二段113號3樓(臺泥大樓三樓士敏廳)", "是否改選董監": "是", "聯絡電話": "(02)2531-7099", "股務單位": "中國信託商業銀行代理部", "股務單位電話": "66365566", "是否採電子投票": "強制"}, {"出表日期": "1131229", "公司代號": "1102", "公司名稱": "亞泥", "公司地址": "台北市大安區敦化南路2段207號30、31樓", "股東常(臨時)會": "常會", "開會日期": "1130625", "開會地點": "國軍英雄館-台北市長沙街一段20號", "是否改選董監": "否", "聯絡電話": "02-2733-8000", "股務單位": "亞東證券股份有限公司", "股務單位電話": "02-7753-1699", "是否採電子
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap42_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=32632
+[GLOBAL] Fields(6): 交易日期, 出表日期, 成交張數, 成交金額, 權證代號, 權證名稱
+[GLOBAL] Sample: [{"出表日期": "1141029", "交易日期": "1141029", "權證代號": "030476", "權證名稱": "台光電元富52購02", "成交金額": "96760.00", "成交張數": "54000"}, {"出表日期": "1141029", "交易日期": "1141029", "權證代號": "030471", "權證名稱": "台玻元富52購01", "成交金額": "226510.00", "成交張數": "59000"}, {"出表日期": "1141029", "交易日期": "1141029", "權證代號": "030472", "權證名稱": "台玻元富52購02", "成交金額": "77200.00", "成交張數": "20000"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap43_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1
+[GLOBAL] Fields(3): 人數, 出表日期, 日期
+[GLOBAL] Sample: [{"出表日期": "1141012", "日期": "", "人數": ""}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap45_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1194
+[GLOBAL] Fields(24): 備註, 公司代號, 公司名稱, 出表日期, 分配後期末未分配盈餘(元), 可分配盈餘(元), 摘錄公司章程-股利分派部分, 期初未分配盈餘/待彌補虧損(元), 期別, 本期淨利(淨損)(元), 決議（擬議）進度, 股利年度, 股利所屬年(季)度, 股利所屬期間, 股東會日期, 股東配發-法定盈餘公積發放之現金(元/股), 股東配發-法定盈餘公積轉增資配股(元/股), 股東配發-盈餘分配之現金股利(元/股), 股東配發-盈餘轉增資配股(元/股), 股東配發-股東配發之現金(股利)總金額(元), 股東配發-股東配股總股數(股), 股東配發-資本公積發放之現金(元/股), 股東配發-資本公積轉增資配股(元/股), 董事會（擬議）股利分派日
+[GLOBAL] Sample: [{"出表日期": "1141029", "公司代號": "1101", "公司名稱": "台泥", "決議（擬議）進度": "股東會確認", "股利年度": "113", "股利所屬年(季)度": "年度", "股利所屬期間": "1130101~1131231", "期別": "1", "董事會（擬議）股利分派日": "1140312", "股東會日期": "1140527", "期初未分配盈餘/待彌補虧損(元)": "24425831208", "本期淨利(淨損)(元)": "11259317093", "可分配盈餘(元)": "33800434389", "分配後期末未分配盈餘(元)": "25864002647", "股東配發-盈餘分配之現金股利(元/股)": "1.00000000", "股東配發-法定盈餘公積發放之現金(元/股)": "0.0", "股東配發-資本公積發放之現金(元/股)": "0.0", "股東配發-股東配發之現金(股利)總金額(元)": "7531181742", "股東配發-盈餘轉增資配股(元/股)": "0.0", "股東配發-法定盈餘公積轉增資配
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_1  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1042
+[GLOBAL] Fields(14): 公司代號, 公司名稱, 出表日期, 報告年度, 溫室氣體排放密集度(噸CO2e/單位), 範疇一取得驗證, 範疇一排放量(噸CO2e), 範疇一資料邊界, 範疇三取得驗證, 範疇三排放量(噸CO2e), 範疇三資料邊界, 範疇二取得驗證, 範疇二排放量(噸CO2e), 範疇二資料邊界
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "範疇一排放量(噸CO2e)": "39544430.9992", "範疇一資料邊界": "已完成合併財務報表之母子公司", "範疇一取得驗證": "是", "範疇二排放量(噸CO2e)": "1518976.1776", "範疇二資料邊界": "已完成合併財務報表之母子公司", "範疇二取得驗證": "是", "範疇三排放量(噸CO2e)": "19338064.3996", "範疇三資料邊界": "已完成母公司", "範疇三取得驗證": "是", "溫室氣體排放密集度(噸CO2e/單位)": "227.2668"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1102", "公司名稱": "亞泥", "範疇一排放量(噸CO2e)": "21078502.0000", "範疇一資料邊界": "已完成合併財務報表之母子公司", "範疇一取得驗證": "是", "範疇二排放量(噸CO2e)": "964217.0
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_10  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=752
+[GLOBAL] Fields(8): 公司代號, 公司名稱, 再生燃料百分比, 出表日期, 報告年度, 天然氣百分比, 消耗燃料總量(十億焦耳(GJ)), 煤炭百分比
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "消耗燃料總量(十億焦耳(GJ))": "N/A", "煤炭百分比": "N/A", "天然氣百分比": "N/A", "再生燃料百分比": "N/A"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1102", "公司名稱": "亞泥", "消耗燃料總量(十億焦耳(GJ))": "N/A", "煤炭百分比": "N/A", "天然氣百分比": "N/A", "再生燃料百分比": "N/A"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1103", "公司名稱": "嘉泥", "消耗燃料總量(十億焦耳(GJ))": "0.0000", "煤炭百分比": "0.00%", "天然氣百分比": "0.00%", "再生燃料百分比": "0.00%"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_11  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=753
+[GLOBAL] Fields(6): 公司代號, 公司名稱, 出表日期, 報告年度, 產品生命週期管理之揭露：含報廢產品及電子廢棄物之再循環之百分比, 產品生命週期管理之揭露：報廢產品及電子廢棄物之重量(公噸(t))
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "產品生命週期管理之揭露：報廢產品及電子廢棄物之重量(公噸(t))": "N/A", "產品生命週期管理之揭露：含報廢產品及電子廢棄物之再循環之百分比": "N/A"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1102", "公司名稱": "亞泥", "產品生命週期管理之揭露：報廢產品及電子廢棄物之重量(公噸(t))": "N/A", "產品生命週期管理之揭露：含報廢產品及電子廢棄物之再循環之百分比": "N/A"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1103", "公司名稱": "嘉泥", "產品生命週期管理之揭露：報廢產品及電子廢棄物之重量(公噸(t))": "N/A", "產品生命週期管理之揭露：含報廢產品及電子廢棄物之再循環之百分比": "N/A"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_12  [200]  ok=True
+Content-Type: text/html; charset=utf-8
+Non-JSON preview: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-T
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_13  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=728
+[GLOBAL] Fields(7): 公司代號, 公司名稱, 出表日期, 報告年度, 對供應商進行稽核之家數(家), 對供應商進行稽核之百分比, 採購符合國際認可之產品責任標準者占整體採購之百分比，並依標準區分
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "採購符合國際認可之產品責任標準者占整體採購之百分比，並依標準區分": "N/A", "對供應商進行稽核之家數(家)": "275", "對供應商進行稽核之百分比": "93.63%"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1102", "公司名稱": "亞泥", "採購符合國際認可之產品責任標準者占整體採購之百分比，並依標準區分": "N/A", "對供應商進行稽核之家數(家)": "72", "對供應商進行稽核之百分比": "100.00%"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1103", "公司名稱": "嘉泥", "採購符合國際認可之產品責任標準者占整體採購之百分比，並依標準區分": "N/A", "對供應商進行稽核之家數(家)": "N/A", "對供應商進行稽核之百分比": "N/A"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_14  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=758
+[GLOBAL] Fields(7): 依產品類別之產品產量, 公司代號, 公司名稱, 出表日期, 售出產品重量(公噸(t)), 報告年度, 生產設施場所數量(座)
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "售出產品重量(公噸(t))": "N/A", "生產設施場所數量(座)": "59", "依產品類別之產品產量": "熟料29837522噸、水泥31189537噸、膠結材料36417004噸、280規格混凝土6262643噸、350規格混凝土2062133噸、420規格混凝土1031822噸"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1102", "公司名稱": "亞泥", "售出產品重量(公噸(t))": "3182000.000", "生產設施場所數量(座)": "2", "依產品類別之產品產量": "水泥產量3,109,000噸、熟料產量2,942.000噸"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1103", "公司名稱": "嘉泥", "售出產品重量(公噸(t))": "N/A", "生產設施場所數量(座)": "N/A", "依產品類別
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_15  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=702
+[GLOBAL] Fields(5): 公司代號, 公司名稱, 出表日期, 在人口密集地區的煉油廠數量(座), 報告年度
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "在人口密集地區的煉油廠數量(座)": "0"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1102", "公司名稱": "亞泥", "在人口密集地區的煉油廠數量(座)": "0"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1103", "公司名稱": "嘉泥", "在人口密集地區的煉油廠數量(座)": "N/A"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_16  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=798
+[GLOBAL] Fields(7): 公司代號, 公司名稱, 出表日期, 因資訊外洩事件而受影響的顧客數(人), 報告年度, 與個資相關的資訊外洩事件占比, 資訊外洩事件數量
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "資訊外洩事件數量": "0", "與個資相關的資訊外洩事件占比": "0.00%", "因資訊外洩事件而受影響的顧客數(人)": "0"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1102", "公司名稱": "亞泥", "資訊外洩事件數量": "0", "與個資相關的資訊外洩事件占比": "0.00%", "因資訊外洩事件而受影響的顧客數(人)": "0"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1103", "公司名稱": "嘉泥", "資訊外洩事件數量": "0", "與個資相關的資訊外洩事件占比": "0.00%", "因資訊外洩事件而受影響的顧客數(人)": "0"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_17  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=670
+[GLOBAL] Fields(7): 公司代號, 公司名稱, 出表日期, 報告年度, 對促進小型企業及社區發展的貸放件數(件), 對促進小型企業及社區發展的貸放餘額(仟元), 對缺少銀行服務之弱勢族群提供金融教育之參與人數(人)
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "對促進小型企業及社區發展的貸放件數(件)": "N/A", "對促進小型企業及社區發展的貸放餘額(仟元)": "N/A", "對缺少銀行服務之弱勢族群提供金融教育之參與人數(人)": "N/A"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1102", "公司名稱": "亞泥", "對促進小型企業及社區發展的貸放件數(件)": "N/A", "對促進小型企業及社區發展的貸放餘額(仟元)": "N/A", "對缺少銀行服務之弱勢族群提供金融教育之參與人數(人)": "N/A"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1103", "公司名稱": "嘉泥", "對促進小型企業及社區發展的貸放件數(件)": "N/A", "對促進小型企業及社區發展的貸放餘額(仟元)": "N/A", "對缺少銀行服務之弱勢族群提供金融教育之參與人數(人)": "N/A"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_18  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1042
+[GLOBAL] Fields(5): 公司代號, 公司名稱, 出表日期, 前10大股東持股情形, 報告年度
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "前10大股東持股情形": "https://doc.twse.com.tw/server-java/t144sb10?step=9&filename=2025_1101_20250527F17.pdf"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1102", "公司名稱": "亞泥", "前10大股東持股情形": "https://doc.twse.com.tw/server-java/t144sb10?step=9&filename=2025_1102_20250528F17.pdf"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1103", "公司名稱": "嘉泥", "前10大股東持股情形": "https://doc.twse.com.tw/server-java/t144sb10?step=9&filename=2025_1103_20250516
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_19  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=780
+[GLOBAL] Fields(6): 公司代號, 公司名稱, 出表日期, 報告年度, 與使用關鍵材料相關的風險管理之描述, 重大事件之風險管理政策
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "重大事件之風險管理政策": "台泥參考世界經濟論壇(WEF)《2025年全球風險報告》、水泥及能源同業風險報告、永續會計準則委員會(SASB)準則、台泥風險管理政策及國際趨勢，藉此鑑別營運相關面向（如：經營策略、市場營運、財務穩定）及地理位置（如：氣候變遷），共四大風險面向，同時考量可能導致公司蒙受重大損失之潛在風險，例如：生物多樣性風險、地緣政治風險、資訊安全風險等。並透過流程分析、情境分析、問卷調查等多元方式，納入內外部風險因子、利害關係人關注重點，以及兼採「由下而上」與「由上而下」之分析討論，系統性鑑別風險項目。針對所鑑別之風險，台泥依其性質及特徵深入分析其發生機率及影響程度，據以量化風險值，並以風險胃納（風險容忍值）的方式，研議各風險值所對應之風險等級，以及各風險等級之風險回應方式，作為後續風險評量及風險回應策略之依據。", "與使用關鍵材料相關的風險管理之描述": "面對氣候變遷導致的極端氣候及淨零轉型可能帶來之營運影響，台泥已將氣候風險整合至
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_2  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1041
+[GLOBAL] Fields(7): 使用率(再生能源/總能源), 公司代號, 公司名稱, 出表日期, 取得驗證, 報告年度, 資料範圍
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "使用率(再生能源/總能源)": "2.0512%", "資料範圍": "台灣與中國大陸水泥事業，包含台泥水泥廠、製品廠及轄下發貨站、粉磨站、辦公室，以及子公司萬青水泥、鳳勝實業、Hong Kong Cement、礦業公司、環保科技公司100%營運據點", "取得驗證": "ISO 50001"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1102", "公司名稱": "亞泥", "使用率(再生能源/總能源)": "0.1100%", "資料範圍": "母公司", "取得驗證": "ISO 50001"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1103", "公司名稱": "嘉泥", "使用率(再生能源/總能源)": "N/A", "資料範圍": "N/A", "取得驗證": "ISO 50001"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_20  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=797
+[GLOBAL] Fields(5): 公司代號, 公司名稱, 出表日期, 因與反競爭行為條例相關的法律訴訟而造成的金錢損失總額(仟元), 報告年度
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "因與反競爭行為條例相關的法律訴訟而造成的金錢損失總額(仟元)": "0.000"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1102", "公司名稱": "亞泥", "因與反競爭行為條例相關的法律訴訟而造成的金錢損失總額(仟元)": "0.000"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1103", "公司名稱": "嘉泥", "因與反競爭行為條例相關的法律訴訟而造成的金錢損失總額(仟元)": "0.000"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_3  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1041
+[GLOBAL] Fields(9): 公司代號, 公司名稱, 出表日期, 取得驗證, 報告年度, 用水密集度-單位, 用水密集度-密集度(公噸/單位) , 用水量(公噸), 資料範圍
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "用水量(公噸)": "15870000.0000", "資料範圍": "台灣與中國大陸水泥事業，包含台泥水泥廠、製品廠及轄下發貨站、粉磨站、辦公室，以及子公司萬青水泥、鳳勝實業、Hong Kong Cement、礦業公司、環保科技公司100%營運據點", "用水密集度-密集度(公噸/單位) ": "250.7999", "用水密集度-單位": "公噸/百萬元營業額", "取得驗證": "ISO 46001"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1102", "公司名稱": "亞泥", "用水量(公噸)": "2590000.0000", "資料範圍": "母公司", "用水密集度-密集度(公噸/單位) ": "0.8520", "用水密集度-單位": "噸-水/噸-水泥膠結材料", "取得驗證": "ISO 46001"}, {"出表日期": "1141030", "報告年度": "113", "公
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_4  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1041
+[GLOBAL] Fields(13): 公司代號, 公司名稱, 出表日期, 取得驗證, 報告年度, 廢棄物密集度-單位, 廢棄物密集度-密集度(公噸/單位) , 有害廢棄物量-數據(公噸) , 有害廢棄物量-資料範圍, 總重量(有害+非有害)-數據(公噸), 總重量(有害+非有害)-資料範圍, 非有害廢棄物量-數據(公噸), 非有害廢棄物量-資料範圍
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "有害廢棄物量-數據(公噸) ": "557.6000", "有害廢棄物量-資料範圍": "台灣與中國大陸水泥事業，包含台泥水泥廠、製品廠及轄下發貨站、粉磨站、辦公室，以及子公司萬青水泥、鳳勝實業、Hong Kong Cement、礦業公司、環保科技公司100%營運據點", "非有害廢棄物量-數據(公噸)": "34371.8400", "非有害廢棄物量-資料範圍": "台灣與中國大陸水泥事業，包含台泥水泥廠、製品廠及轄下發貨站、粉磨站、辦公室，以及子公司萬青水泥、鳳勝實業、Hong Kong Cement、礦業公司、環保科技公司100%營運據點", "總重量(有害+非有害)-數據(公噸)": "34929.4400", "總重量(有害+非有害)-資料範圍": "台灣與中國大陸水泥事業，包含台泥水泥廠、製品廠及轄下發貨站、粉磨站、辦公室，以及子公司萬青水泥、鳳勝實業、Hong Kong Cement、礦業公司、環保科技公司100%營運據點", "廢棄物密集
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_5  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1018
+[GLOBAL] Fields(15): 公司代號, 公司名稱, 出表日期, 員工福利平均數(仟元/人), 員工薪資平均數(仟元/人) , 因應火災之相關改善措施, 報告年度, 火災件數, 火災死傷人數, 火災死傷人數占員工總人數比率, 管理職女性主管佔比, 職業災害人數及比率-人數, 職業災害人數及比率-比率, 非擔任主管之全時員工薪資中位數(仟元/人) , 非擔任主管職務之全時員工薪資平均數(仟元/人) 
+[GLOBAL] Sample: [{"出表日期": "1130711", "報告年度": "112", "公司代號": "1101", "公司名稱": "台泥", "員工福利平均數(仟元/人)": "1139", "員工薪資平均數(仟元/人) ": "973", "非擔任主管職務之全時員工薪資平均數(仟元/人) ": "994", "非擔任主管之全時員工薪資中位數(仟元/人) ": "871", "管理職女性主管佔比": "18.90%", "職業災害人數及比率-人數": "13", "職業災害人數及比率-比率": "0.15%", "火災件數": "0", "火災死傷人數": "0", "火災死傷人數占員工總人數比率": "0", "因應火災之相關改善措施": "N/A"}, {"出表日期": "1130711", "報告年度": "112", "公司代號": "1102", "公司名稱": "亞泥", "員工福利平均數(仟元/人)": "1299", "員工薪資平均數(仟元/人) ": "1188", "非擔任主管職務之全時員工薪資平均數(仟元/人) ": "1083", "非擔任主管之全時員工薪資中位數(仟元/
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_6  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1041
+[GLOBAL] Fields(10): 公司代號, 公司名稱, 出表日期, 報告年度, 女性董事席次及比率-席, 女性董事席次及比率-比率, 獨立董事席次(席), 董事出席董事會出席率, 董事席次(含獨立董事)(席), 董監事進修時數符合進修要點比率
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "董事席次(含獨立董事)(席)": "15", "獨立董事席次(席)": "5", "女性董事席次及比率-席": "5", "女性董事席次及比率-比率": "33.33%", "董事出席董事會出席率": "99.44%", "董監事進修時數符合進修要點比率": "100.00%"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1102", "公司名稱": "亞泥", "董事席次(含獨立董事)(席)": "15", "獨立董事席次(席)": "5", "女性董事席次及比率-席": "2", "女性董事席次及比率-比率": "13.33%", "董事出席董事會出席率": "97.33%", "董監事進修時數符合進修要點比率": "100.00%"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1103", "公司名稱": "嘉泥", "董事席次(含獨立董事)(席)": 
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_7  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1041
+[GLOBAL] Fields(5): 公司代號, 公司名稱, 公司年度召開法說會次數(次), 出表日期, 報告年度
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "公司年度召開法說會次數(次)": "3"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1102", "公司名稱": "亞泥", "公司年度召開法說會次數(次)": "3"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1103", "公司名稱": "嘉泥", "公司年度召開法說會次數(次)": "4"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_8  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1041
+[GLOBAL] Fields(12): 使用內部碳定價作為規劃工具，應說明價格制定基礎, 公司代號, 公司名稱, 出表日期, 報告年度, 極端氣候事件及轉型行動對財務之影響, 氣候風險之辨識、評估及管理流程如何整合於整體風險管理制度, 若使用情境分析評估面對氣候變遷風險之韌性，應說明所使用之情境、參數、假設、分析因子及主要財務影響, 若有因應管理氣候相關風險之轉型計畫，說明該計畫內容，及用於辨識及管理實體風險及轉型風險之指標與目標, 若有設定氣候相關目標，應說明所涵蓋之活動、溫室氣體排放範疇、規劃期程，每年達成進度等資訊；若使用碳抵換或再生能源憑證(RECs)以達成相關目標，應說明所抵換之減碳額度來源及數量或再生能源憑證(RECs)數量, 董事會與管理階層對於氣候相關風險與機會之監督及治理, 辨識之氣候風險與機會如何影響企業之業務、策略及財務 (短期、中期、長期)
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "董事會與管理階層對於氣候相關風險與機會之監督及治理": "董事會為氣候變遷相關議題之最高治理層級，負責審議永續策略，監督氣候風險與機會管理之整體方向，並確保相關作為與公司永續發展政策一致。台泥設有「企業永續發展委員會」與「風險管理委員會」，分別負責氣候相關策略之推動及重大風險管理作業。\n企業永續發展委員會每年至少召開兩次，督導氣候目標、行動計畫及執行成果，並定期提報董事會，強化治理層之監督功能。風險管理委員會則定期辦理氣候相關風險辨識與評估，涵蓋實體與轉型風險，並由總經理統籌擔任氣候議題之管理責任人，確保風險控管機制有效執行。該委員會每年向董事會提報風險管理執行情形，2024年共召開兩次。\n自2023年起，台泥每年訂定氣候相關績效指標及目標，經董事會核備，並納入年度追蹤與報告機制，以強化策略執行力及回應外部利害關係人期待。", "辨識之氣候風險與機會如何影響企業之業務、策略及財務 (短期、中期、長期)": "面對氣候變遷導致的極端氣候及淨零轉型可能帶
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap46_L_9  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=1041
+[GLOBAL] Fields(9): 公司代號, 公司名稱, 出表日期, 報告年度, 審計委員會出席率, 審計委員會席次, 薪酬委員會出席率, 薪酬委員會席次, 薪酬委員會獨立董事席次
+[GLOBAL] Sample: [{"出表日期": "1141030", "報告年度": "113", "公司代號": "1101", "公司名稱": "台泥", "薪酬委員會席次": "4", "薪酬委員會獨立董事席次": "4", "薪酬委員會出席率": "100.00%", "審計委員會席次": "4", "審計委員會出席率": "100.00%"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1102", "公司名稱": "亞泥", "薪酬委員會席次": "3", "薪酬委員會獨立董事席次": "2", "薪酬委員會出席率": "100.00%", "審計委員會席次": "5", "審計委員會出席率": "96.00%"}, {"出表日期": "1141030", "報告年度": "113", "公司代號": "1103", "公司名稱": "嘉泥", "薪酬委員會席次": "3", "薪酬委員會獨立董事席次": "2", "薪酬委員會出席率": "88.89%", "審計委員會席次": "3", "審計委員會出席率": "100.00%"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /opendata/t187ap47_L  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=209
+[GLOBAL] Fields(24): ETF標的指數是否為客製化或需揭露相關資訊之指數, 上市日期, 代理發言人, 備註, 出表日期, 地址, 基金代號, 基金名稱, 基金類型, 成立日期, 投資經理人, 指數股票型基金(ETF)之標的指數是否包含外國成份股, 標的指數|追蹤指數名稱, 發行單位數|轉換數, 發言人, 統一編號, 總代理人, 總機, 總經理, 英文名稱, 董事長, 過戶地址, 過戶機構, 過戶電話
+[GLOBAL] Sample: [{"出表日期": "1131230", "基金代號": "0050", "基金名稱": "元大台灣卓越50證券投資信託基金", "標的指數|追蹤指數名稱": "臺灣50指數", "ETF標的指數是否為客製化或需揭露相關資訊之指數": "否", "總機": "(02)2717-5555", "基金類型": "國內成分證券指數股票型基金", "英文名稱": "Yuanta/P-shares Taiwan Top 50 ETF", "地址": "臺北市松山區敦化南路1段66號1樓、4樓、5樓及68號2樓之1", "董事長": "劉宗聖", "發言人": "陳沛宇", "總經理": "陳沛宇", "代理發言人": "林瑞源", "投資經理人": "陳重銓", "統一編號": "98764389", "總代理人": "", "上市日期": "0920630", "成立日期": "0920625", "發行單位數|轉換數": "2216500000", "過戶機構": "臺灣集中保管結算所股份有限公司", "過戶電話": "(02)2719-5805", "過戶地址": "台北市復興北路363號
+[CODES] code_key='基金代號'
+  - 00939: count=1 fields=24
+    sample: [{"出表日期": "1131230", "基金代號": "00939", "基金名稱": "統一台灣高息動能ETF證券投資信託基金", "標的指數|追蹤指數名稱": "特選臺灣高息動能指數", "ETF標的指數是否為客製化或需揭露相關資訊之指數": "是", "總機": "(02)2747-8388", "基金類型": "國內成分證券指數股票型基金", "英文名稱": "UPAMC Taiwan High Dividend Momentum ETF", "地址": "台北市松山區東興路8號8樓", "董事長": "鄧潤澤", "發言人": "董永寬", "總經理": "董永寬", "代理發言
+  - 00934: count=1 fields=24
+    sample: [{"出表日期": "1131230", "基金代號": "00934", "基金名稱": "中國信託臺灣優選成長高股息ETF證券投資信託基金", "標的指數|追蹤指數名稱": "臺灣指數公司特選臺灣上市上櫃優選成長高股息指數", "ETF標的指數是否為客製化或需揭露相關資訊之指數": "是", "總機": "(02)2652-6688", "基金類型": "國內成分證券指數股票型基金", "英文名稱": "CTBC TIP Customized Taiwan Growth and High Dividend ETF", "地址": "台北市南港區經貿二路188號12樓", "董事長": "陳
+  - 00937B: count=0 fields=0
+  - 00929: count=1 fields=24
+    sample: [{"出表日期": "1131230", "基金代號": "00929", "基金名稱": "復華台灣科技優息ETF證券投資信託基金", "標的指數|追蹤指數名稱": "臺灣指數公司特選臺灣上市上櫃科技優息指數", "ETF標的指數是否為客製化或需揭露相關資訊之指數": "是", "總機": "(02)8161-6800", "基金類型": "國內成分證券指數股票型基金", "英文名稱": "Fuh Hwa Taiwan Technology Dividend Highlight ETF", "地址": "台北市八德路二段308號8樓", "董事長": "杜俊雄", "發言人": "張偉智",
+  - 0056: count=1 fields=24
+    sample: [{"出表日期": "1131230", "基金代號": "0056", "基金名稱": "元大台灣高股息證券投資信託基金", "標的指數|追蹤指數名稱": "臺灣高股息指數", "ETF標的指數是否為客製化或需揭露相關資訊之指數": "否", "總機": "(02)2717-5555", "基金類型": "國內成分證券指數股票型基金", "英文名稱": "Yuanta/P-shares Taiwan Dividend Plus ETF", "地址": "臺北市松山區敦化南路1段66號1樓、4樓、5樓及68號2樓之1", "董事長": "劉宗聖", "發言人": "陳沛宇", "總經理": "
+--------------------------------------------------------------------------------
+GET /opendata/twtazu_od  [200]  ok=True
+Content-Type: application/json
+[GLOBAL] JSON type: list | total_rows=2
+[GLOBAL] Fields(9): 上漲, 下跌, 出表日期, 持平, 未成交, 漲停, 無比價, 跌停, 類型
+[GLOBAL] Sample: [{"出表日期": "1141029", "類型": "整體市場", "上漲": "6883", "漲停": "106", "下跌": "4786", "跌停": "53", "持平": "761", "未成交": "18101", "無比價": "3420"}, {"出表日期": "1141029", "類型": "股票", "上漲": "409", "漲停": "13", "下跌": "517", "跌停": "1", "持平": "123", "未成交": "3", "無比價": "2"}]
+[CODES] code_key=''
+  - 00939: count=0 fields=0
+  - 00934: count=0 fields=0
+  - 00937B: count=0 fields=0
+  - 00929: count=0 fields=0
+  - 0056: count=0 fields=0
+--------------------------------------------------------------------------------
+GET /static/20151104/CSR103  [200]  ok=True
+Content-Type: text/html; charset=utf-8
+Non-JSON preview: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-T
